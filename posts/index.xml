@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 子曰</title>
+    <link>https://i.ziyue.de/posts/</link>
+    <description>Recent content in Posts on 子曰</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 20 Nov 2021 22:23:42 +0800</lastBuildDate><atom:link href="https://i.ziyue.de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试图片</title>
+      <link>https://i.ziyue.de/posts/testimage/</link>
+      <pubDate>Sat, 20 Nov 2021 22:23:42 +0800</pubDate>
+      
+      <guid>https://i.ziyue.de/posts/testimage/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>这样打开github</title>
+      <link>https://i.ziyue.de/posts/opengithub/</link>
+      <pubDate>Sat, 20 Nov 2021 20:47:57 +0800</pubDate>
+      
+      <guid>https://i.ziyue.de/posts/opengithub/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>今天回家</title>
+      <link>https://i.ziyue.de/posts/huijia20211120/</link>
+      <pubDate>Sat, 20 Nov 2021 19:58:32 +0800</pubDate>
+      
+      <guid>https://i.ziyue.de/posts/huijia20211120/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>怪不得域名一直掉</title>
+      <link>https://i.ziyue.de/posts/yumingdiao/</link>
+      <pubDate>Fri, 19 Nov 2021 22:34:38 +0800</pubDate>
+      
+      <guid>https://i.ziyue.de/posts/yumingdiao/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>祝你长生不老</title>
+      <link>https://i.ziyue.de/posts/zhubababulao/</link>
+      <pubDate>Fri, 19 Nov 2021 22:02:38 +0800</pubDate>
+      
+      <guid>https://i.ziyue.de/posts/zhubababulao/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>自动部署后发的第一篇文章</title>
+      <link>https://i.ziyue.de/posts/zidongbushu/</link>
+      <pubDate>Thu, 18 Nov 2021 20:33:48 +0800</pubDate>
+      
+      <guid>https://i.ziyue.de/posts/zidongbushu/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>
