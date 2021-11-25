@@ -43,11 +43,11 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: ""https://yiws.net/usr/themes/Single/img/icon.png"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "<link/favicon.ico>"
+        favicon16x16: "<link/favicon.ico>"
+        favicon32x32: "<link/favicon.ico>"
+        apple_touch_icon: "<link/ abs url>"
+        safari_pinned_tab: "<link/ abs url>"
 
     label:
         text: "子 曰"  #左上标题文字
