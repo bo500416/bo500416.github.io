@@ -24,8 +24,3 @@
 - id: code_copied
   translation: "已复制！"
   
-- identifier: categories
-  translation: "分类"
-  
-- identifier: tags
-  translation: "标签"
