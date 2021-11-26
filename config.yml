@@ -119,7 +119,7 @@ outputs:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: 分类
+        - identifier: categories
           name: 分类
           url: /categories/
           weight: 10
