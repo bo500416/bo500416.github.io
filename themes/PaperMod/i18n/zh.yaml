@@ -23,3 +23,9 @@
 
 - id: code_copied
   translation: "已复制！"
+  
+- id: categories
+  translation: "分类"
+  
+- id: tags
+  translation: "标签"
