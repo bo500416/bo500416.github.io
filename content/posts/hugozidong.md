@@ -19,7 +19,7 @@ description: " "
 
 具体操作：
 
-![](https://s3.bmp.ovh/imgs/2021/11/b71d9d9afc40c41b.jpg)
+![](https://s3.bmp.ovh/imgs/2021/11/34e87f0d2036b19b.png)
 
 ![](https://s3.bmp.ovh/imgs/2021/11/b2ee262c3b9bd66f.png)
 
