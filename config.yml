@@ -37,7 +37,7 @@ params:
     comments: false #回复开关
     hidemeta: false
     hideSummary: false
-    showtoc: false  #显示目录
+    showtoc: true  #显示目录
     tocopen: false
 
     assets:
