@@ -3,18 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://i.ziyue.de/categories/</loc>
-    <lastmod>2021-11-25T00:01:21+08:00</lastmod>
+    <lastmod>2021-11-26T20:57:45+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/tags/hugo/</loc>
+    <lastmod>2021-11-26T20:57:45+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/hugozidong/</loc>
+    <lastmod>2021-11-26T20:57:45+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/tags/</loc>
+    <lastmod>2021-11-26T20:57:45+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/</loc>
+    <lastmod>2021-11-26T20:57:45+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/tags/%E8%87%AA%E5%8A%A8/</loc>
+    <lastmod>2021-11-26T20:57:45+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/categories/%E8%BD%AC%E8%BD%BD/</loc>
+    <lastmod>2021-11-26T20:57:45+08:00</lastmod>
   </url><url>
     <loc>https://i.ziyue.de/posts/</loc>
     <lastmod>2021-11-25T00:01:21+08:00</lastmod>
   </url><url>
-    <loc>https://i.ziyue.de/tags/</loc>
-    <lastmod>2021-11-25T00:01:21+08:00</lastmod>
-  </url><url>
     <loc>https://i.ziyue.de/tags/theme/</loc>
-    <lastmod>2021-11-25T00:01:21+08:00</lastmod>
-  </url><url>
-    <loc>https://i.ziyue.de/</loc>
     <lastmod>2021-11-25T00:01:21+08:00</lastmod>
   </url><url>
     <loc>https://i.ziyue.de/posts/chenggong/</loc>
@@ -47,9 +59,6 @@
     <loc>https://i.ziyue.de/categories/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2021-11-20T19:58:32+08:00</lastmod>
   </url><url>
-    <loc>https://i.ziyue.de/tags/hugo/</loc>
-    <lastmod>2021-11-19T22:34:38+08:00</lastmod>
-  </url><url>
     <loc>https://i.ziyue.de/tags/%E5%9F%9F%E5%90%8D/</loc>
     <lastmod>2021-11-19T22:34:38+08:00</lastmod>
   </url><url>
@@ -64,9 +73,6 @@
   </url><url>
     <loc>https://i.ziyue.de/posts/zhubababulao/</loc>
     <lastmod>2021-11-19T22:02:38+08:00</lastmod>
-  </url><url>
-    <loc>https://i.ziyue.de/tags/%E8%87%AA%E5%8A%A8/</loc>
-    <lastmod>2021-11-18T20:33:48+08:00</lastmod>
   </url><url>
     <loc>https://i.ziyue.de/posts/zidongbushu/</loc>
     <lastmod>2021-11-18T20:33:48+08:00</lastmod>
