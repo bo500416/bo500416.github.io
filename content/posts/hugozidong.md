@@ -19,13 +19,13 @@ description: " "
 
 具体操作：
 
-![](https://lmm.elizen.me/images/2020/03/tokens-1.png)
+![](https://s3.bmp.ovh/imgs/2021/11/b71d9d9afc40c41b.jpg)
 
-![](https://lmm.elizen.me/images/2020/03/tokens-2.png)
+![](https://s3.bmp.ovh/imgs/2021/11/b2ee262c3b9bd66f.png)
 
 点 https://github.com/settings/tokens 新建一个，勾选 repo 和 workflow ,暂存；
 
-![](https://lmm.elizen.me/images/2020/03/secrets.jpeg)
+![](https://s3.bmp.ovh/imgs/2021/11/b71d9d9afc40c41b.jpg)
 
 进项目 settings/secrets 新建标题为 personal_token ，内容是刚创建的 tokens ;
 
