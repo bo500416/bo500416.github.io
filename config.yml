@@ -31,7 +31,7 @@ params:
     ShowShareButtons: false  #分享按钮
     ShowPostNavLinks: true
     ShowBreadCrumbs: false  #面包屑导航
-    ShowCodeCopyButtons: false  #代码片段显示复制
+    ShowCodeCopyButtons: true  #代码片段显示复制
     disableSpecial1stPost: false
     disableScrollToTop: false   #直接到顶,需在meta中增加
     comments: false #回复开关
