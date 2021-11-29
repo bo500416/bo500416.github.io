@@ -1,6 +1,6 @@
 ---
 title: "工作日休息"
-tags: ["休息"]
+tags: ["休息","遛狗"]
 categories: ["日常"]
 author: "MagicQ"
 date: 2021-11-29T22:28:44+08:00
