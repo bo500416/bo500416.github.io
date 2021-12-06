@@ -71,8 +71,8 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Welcom! \U0001F44B"
-        Content:鱼戏莲叶间。  
+        Title: "Hello World! \U0001F44B"
+        Content: Welcome to my blog 。  
         
 
     socialIcons:
