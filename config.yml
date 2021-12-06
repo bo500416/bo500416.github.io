@@ -73,10 +73,8 @@ params:
     homeInfoParams:
         Title: "Hello World! \U0001F44B"
         Content: 
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-            - Do give a 🌟 on Github !
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-        
+             **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+           
 
     socialIcons:
         - name: twitter
