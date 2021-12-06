@@ -72,7 +72,10 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hello World! \U0001F44B"
-        Content: <p>鱼戏连夜间</p>  
+        Content: 
+            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+            - Do give a 🌟 on Github !
+            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
         
 
     socialIcons:
