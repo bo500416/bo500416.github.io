@@ -82,12 +82,12 @@ params:
            
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
-        - name: github
-          url: "https://github.com/"
+        - name: buymeacoffee
+          url: 
+        - name: email
+          url: "mailto:mail100001@qq.com"
+        - name: rss
+          url: "https://i.ziyue.de/index.xml"
 
     #analytics:
         #google:
