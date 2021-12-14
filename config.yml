@@ -72,13 +72,13 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hello World \U0001F44B"
-        Content: 江南可采莲，莲叶何田田。
+        Content: 我们总是把幸福人生解读为：“有”,有房子、有车、有钱、有权，
         
         
-                    鱼戏莲叶间。
+                    可我们却不知道幸福其实是“无”，无忧、无虑、无病、无灾。
         
         
-                    鱼戏莲叶东，鱼戏莲叶西，鱼戏莲叶南，鱼戏莲叶北。
+                    因为“有”多半是给别人看的，只有“无”才是你自己的。
            
 
     socialIcons:
