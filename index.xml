@@ -144,5 +144,14 @@
     
     
     
+    <item>
+      <title>链接</title>
+      <link>https://i.ziyue.de/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://i.ziyue.de/links/</guid>
+      <description>links</description>
+    </item>
+    
   </channel>
 </rss>
