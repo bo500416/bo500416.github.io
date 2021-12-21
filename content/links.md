@@ -10,4 +10,5 @@ summary: links
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[教学工具导航](https://edui.fun/)	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[杜老师说](https://dusays.com/)	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[去不图床](https://7bu.top/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[kaix.in](https://kaix.in/)
+
+[kaix.in](https://kaix.in/)
