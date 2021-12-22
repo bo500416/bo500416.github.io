@@ -27,7 +27,7 @@ params:
     defaultTheme: auto # dark, light
     disableThemeToggle: false  # 显示切换主题
 
-    ShowReadingTime: true
+    ShowReadingTime: false
     ShowShareButtons: false  #分享按钮
     ShowPostNavLinks: true
     ShowBreadCrumbs: false  #面包屑导航
