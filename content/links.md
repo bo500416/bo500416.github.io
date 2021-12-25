@@ -12,3 +12,6 @@ summary: links
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[去不图床](https://7bu.top/)
 
 [kaix.in](https://kaix.in/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[胡言胡语](https://husay.cc/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[三无青年](https://www.duanxiansen.com/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[忆往事](https://yiws.net/)
