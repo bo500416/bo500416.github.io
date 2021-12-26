@@ -19,8 +19,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: 子曰
     description: "学而时习之，不亦说乎。"
-    keywords: [博客,日常,思考]
-    author: MagicQ
+    keywords: [博客,日常,思考]    
     # author: ["Me", "You"] # multiple authors
     #images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
