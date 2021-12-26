@@ -15,3 +15,4 @@ summary: links
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[胡言胡语](https://husay.cc/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[三无青年](https://www.duanxiansen.com/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[忆往事](https://yiws.net/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[BETTYPLEX](http://forbetty.com/)
