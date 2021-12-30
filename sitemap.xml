@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://i.ziyue.de/posts/</loc>
+    <lastmod>2021-12-30T21:17:01+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/tags/%E5%80%BC%E7%8F%AD/</loc>
+    <lastmod>2021-12-30T21:17:01+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/</loc>
+    <lastmod>2021-12-30T21:17:01+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/tags/</loc>
+    <lastmod>2021-12-30T21:17:01+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/posts/2021-12-30/</loc>
+    <lastmod>2021-12-30T21:17:01+08:00</lastmod>
+  </url><url>
+    <loc>https://i.ziyue.de/tags/%E7%96%AB%E8%8B%97/</loc>
+    <lastmod>2021-12-30T21:17:01+08:00</lastmod>
+  </url><url>
     <loc>https://i.ziyue.de/posts/2021-12-25/</loc>
     <lastmod>2021-12-25T22:25:16+08:00</lastmod>
   </url><url>
     <loc>https://i.ziyue.de/categories/</loc>
-    <lastmod>2021-12-25T22:25:16+08:00</lastmod>
-  </url><url>
-    <loc>https://i.ziyue.de/posts/</loc>
     <lastmod>2021-12-25T22:25:16+08:00</lastmod>
   </url><url>
     <loc>https://i.ziyue.de/tags/%E4%B8%8B%E9%9B%AA/</loc>
@@ -17,13 +32,7 @@
     <loc>https://i.ziyue.de/tags/%E5%9C%A3%E8%AF%9E/</loc>
     <lastmod>2021-12-25T22:25:16+08:00</lastmod>
   </url><url>
-    <loc>https://i.ziyue.de/</loc>
-    <lastmod>2021-12-25T22:25:16+08:00</lastmod>
-  </url><url>
     <loc>https://i.ziyue.de/categories/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2021-12-25T22:25:16+08:00</lastmod>
-  </url><url>
-    <loc>https://i.ziyue.de/tags/</loc>
     <lastmod>2021-12-25T22:25:16+08:00</lastmod>
   </url><url>
     <loc>https://i.ziyue.de/tags/%E5%AD%94%E4%B9%99%E5%B7%B1/</loc>
