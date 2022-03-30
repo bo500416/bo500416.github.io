@@ -34,6 +34,8 @@
 
 .post-content {
     color: var(--content);
+	text-align: justify;
+	text-justify: inter-ideograph;
 }
 
 .post-content h3,
@@ -428,3 +430,5 @@ h6:hover .anchor {
 [dir="rtl"] .paginav .next {
     text-align: left;
 }
+
+
