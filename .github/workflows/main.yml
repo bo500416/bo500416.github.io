@@ -34,5 +34,5 @@ jobs:
           username: 3hm3b5s29i222
           password: hengbo2960798
           local-dir: ./public/
-          server-dir: web/
+          server-dir: web/web-hugo/
           port: 21
