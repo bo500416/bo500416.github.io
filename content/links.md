@@ -10,8 +10,7 @@ summary: links
 &nbsp;&nbsp;&nbsp;&nbsp;[教学工具导航](https://edui.fun/)	
 &nbsp;&nbsp;&nbsp;&nbsp;[杜老师说](https://dusays.com/)	
 &nbsp;&nbsp;&nbsp;&nbsp;[去不图床](https://7bu.top/)
-
-[kaix.in](https://kaix.in/)
+&nbsp;&nbsp;&nbsp;&nbsp;[kaix.in](https://kaix.in/)
 &nbsp;&nbsp;&nbsp;&nbsp;[胡言胡语](https://husay.cc/)
 &nbsp;&nbsp;&nbsp;&nbsp;[三无青年](https://www.duanxiansen.com/)
 &nbsp;&nbsp;&nbsp;&nbsp;[忆往事](https://yiws.net/)
