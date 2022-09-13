@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>经验 on 子曰</title>
-    <link>https://i.ziyue.de/categories/%E7%BB%8F%E9%AA%8C/</link>
+    <link>https://i.bairuicc.com/categories/%E7%BB%8F%E9%AA%8C/</link>
     <description>Recent content in 经验 on 子曰</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 25 Nov 2021 00:01:21 +0800</lastBuildDate><atom:link href="https://i.ziyue.de/categories/%E7%BB%8F%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2021 00:01:21 +0800</lastBuildDate><atom:link href="https://i.bairuicc.com/categories/%E7%BB%8F%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>终于换主题成功</title>
-      <link>https://i.ziyue.de/posts/chenggong/</link>
+      <link>https://i.bairuicc.com/posts/chenggong/</link>
       <pubDate>Thu, 25 Nov 2021 00:01:21 +0800</pubDate>
       
-      <guid>https://i.ziyue.de/posts/chenggong/</guid>
+      <guid>https://i.bairuicc.com/posts/chenggong/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>测试图片</title>
-      <link>https://i.ziyue.de/posts/testimage/</link>
+      <link>https://i.bairuicc.com/posts/testimage/</link>
       <pubDate>Sat, 20 Nov 2021 22:23:42 +0800</pubDate>
       
-      <guid>https://i.ziyue.de/posts/testimage/</guid>
+      <guid>https://i.bairuicc.com/posts/testimage/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>这样打开github</title>
-      <link>https://i.ziyue.de/posts/opengithub/</link>
+      <link>https://i.bairuicc.com/posts/opengithub/</link>
       <pubDate>Sat, 20 Nov 2021 20:47:57 +0800</pubDate>
       
-      <guid>https://i.ziyue.de/posts/opengithub/</guid>
+      <guid>https://i.bairuicc.com/posts/opengithub/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>怪不得域名一直掉</title>
-      <link>https://i.ziyue.de/posts/yumingdiao/</link>
+      <link>https://i.bairuicc.com/posts/yumingdiao/</link>
       <pubDate>Fri, 19 Nov 2021 22:34:38 +0800</pubDate>
       
-      <guid>https://i.ziyue.de/posts/yumingdiao/</guid>
+      <guid>https://i.bairuicc.com/posts/yumingdiao/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>自动部署后发的第一篇文章</title>
-      <link>https://i.ziyue.de/posts/zidongbushu/</link>
+      <link>https://i.bairuicc.com/posts/zidongbushu/</link>
       <pubDate>Thu, 18 Nov 2021 20:33:48 +0800</pubDate>
       
-      <guid>https://i.ziyue.de/posts/zidongbushu/</guid>
+      <guid>https://i.bairuicc.com/posts/zidongbushu/</guid>
       <description> </description>
     </item>
     
