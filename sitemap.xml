@@ -2,11 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://i.bairuicc.com/tags/a&#43;/</loc>
+    <lastmod>2022-12-22T10:03:35+08:00</lastmod>
+  </url><url>
+    <loc>https://i.bairuicc.com/posts/20221222/</loc>
+    <lastmod>2022-12-22T10:03:35+08:00</lastmod>
+  </url><url>
     <loc>https://i.bairuicc.com/posts/</loc>
-    <lastmod>2022-10-12T00:03:35+08:00</lastmod>
+    <lastmod>2022-12-22T10:03:35+08:00</lastmod>
   </url><url>
     <loc>https://i.bairuicc.com/tags/</loc>
-    <lastmod>2022-10-12T00:03:35+08:00</lastmod>
+    <lastmod>2022-12-22T10:03:35+08:00</lastmod>
+  </url><url>
+    <loc>https://i.bairuicc.com/tags/%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2022-12-22T10:03:35+08:00</lastmod>
+  </url><url>
+    <loc>https://i.bairuicc.com/</loc>
+    <lastmod>2022-12-22T10:03:35+08:00</lastmod>
   </url><url>
     <loc>https://i.bairuicc.com/tags/%E5%B0%81%E5%9F%8E/</loc>
     <lastmod>2022-10-12T00:03:35+08:00</lastmod>
@@ -15,9 +27,6 @@
     <lastmod>2022-10-12T00:03:35+08:00</lastmod>
   </url><url>
     <loc>https://i.bairuicc.com/tags/%E7%96%AB%E6%83%85/</loc>
-    <lastmod>2022-10-12T00:03:35+08:00</lastmod>
-  </url><url>
-    <loc>https://i.bairuicc.com/</loc>
     <lastmod>2022-10-12T00:03:35+08:00</lastmod>
   </url><url>
     <loc>https://i.bairuicc.com/posts/20220903/</loc>
