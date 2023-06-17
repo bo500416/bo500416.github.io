@@ -31,7 +31,7 @@
 <meta name=twitter:title content="wordpress网站优化记录">
 <meta name=twitter:description content=" ">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://i.bairuicc.com/posts/"},{"@type":"ListItem","position":2,"name":"wordpress网站优化记录","item":"https://i.bairuicc.com/posts/20230610/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"wordpress网站优化记录","name":"wordpress网站优化记录","description":" ","keywords":["wordpress","优化"],"articleBody":"首先说明一下网站需用到的一些插件：\n1.Loggedin - Limit Active Logins 设置同一时间只能登陆一个用户\n2.WP-Members 设置未登录时首页只显示多少个字符。\n3.WP-PageNavi\t设置分页。\n4.WPJAM BASIC 用来优化网站，加速网站运行。\n下面是一些代码实现的功能：\n1、只搜索标题\nadd_filter( 'posts_search', '_search_by_title', 10, 2 ); function _search_by_title( $search, $wp_query ) { if ( ! empty( $search ) \u0026\u0026 ! empty( $wp_query-query_vars['search_terms'] ) ) { global $wpdb; $q = $wp_query-query_vars; $n = ! empty( $q['exact'] ) ? '' : '%'; $search = array(); foreach ( ( array ) $q['search_terms'] as $term ) $search[] = $wpdb-prepare( \"$wpdb-posts.post_title LIKE %s\", $n . $wpdb-esc_like( $term ) . $n ); if ( ! is_user_logged_in() ) $search[] = \"$wpdb-posts.post_password = ''\"; $search = ' AND ' . implode( ' AND ', $search ); } return $search; } 2、回到顶部\n1、参考How to Create a Scroll Back-to-Top Button in WordPress，创建topbutton.js，将以下代码复制到文件。\njQuery(document).ready(function($){ var offset = 100; var speed = 250; var duration = 500; $(window).scroll(function(){ if ($(this).scrollTop() 2、将这个文件上传到主题/wp-content/themes/twentytwelve/js。再准备一个图标，用来被点击，我分享过很多免费图标库。\n再将准备好的图标上传到图库，获取链接。打开style.css文件，将以下内容复制粘贴到底部。\n.topbutton { height:32px; width:32px; position:fixed; right:6%; bottom:8%; Z-index:1; background-image:url(\"https://guozh.net/wp-content/uploads/2022/12/scroll_to-top.png\"); background-repeat:no-repeat; background-size:100% 100%; -moz-background-size:100% 100%; display:none; } 3、打开functions.php，复制粘贴如下代码到底部。\n/** * 回到顶部 */ function my_scripts_method() { wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/topbutton.js', array( 'jquery' ) ); } add_action( 'wp_enqueue_scripts', 'my_scripts_method' ); 4、在foot.php文件添加如下代码\n 3、首页显示摘要 修改twentytwelve主题中content.php文件。\n改成\n","wordCount":"226","inLanguage":"zh","datePublished":"2023-06-09T20:33:48+08:00","dateModified":"2023-06-09T20:33:48+08:00","author":{"@type":"Person","name":"MagicQ"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://i.bairuicc.com/posts/20230610/"},"publisher":{"@type":"Organization","name":"子曰","logo":{"@type":"ImageObject","url":"https://i.bairuicc.com/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"wordpress网站优化记录","name":"wordpress网站优化记录","description":" ","keywords":["wordpress","优化"],"articleBody":"首先说明一下网站需用到的一些插件：\n1.Loggedin - Limit Active Logins 设置同一时间只能登陆一个用户\n2.WP-Members 设置未登录时首页只显示多少个字符。\n3.WP-PageNavi\t设置分页。\n4.WPJAM BASIC 用来优化网站，加速网站运行。\n下面是一些代码实现的功能：\n一、只搜索标题\nadd_filter( 'posts_search', '_search_by_title', 10, 2 ); function _search_by_title( $search, $wp_query ) { if ( ! empty( $search ) \u0026\u0026 ! empty( $wp_query-query_vars['search_terms'] ) ) { global $wpdb; $q = $wp_query-query_vars; $n = ! empty( $q['exact'] ) ? '' : '%'; $search = array(); foreach ( ( array ) $q['search_terms'] as $term ) $search[] = $wpdb-prepare( \"$wpdb-posts.post_title LIKE %s\", $n . $wpdb-esc_like( $term ) . $n ); if ( ! is_user_logged_in() ) $search[] = \"$wpdb-posts.post_password = ''\"; $search = ' AND ' . implode( ' AND ', $search ); } return $search; } 二、回到顶部\n1、参考How to Create a Scroll Back-to-Top Button in WordPress，创建topbutton.js，将以下代码复制到文件。\njQuery(document).ready(function($){ var offset = 100; var speed = 250; var duration = 500; $(window).scroll(function(){ if ($(this).scrollTop() 2、将这个文件上传到主题/wp-content/themes/twentytwelve/js。再准备一个图标，用来被点击，我分享过很多免费图标库。\n再将准备好的图标上传到图库，获取链接。打开style.css文件，将以下内容复制粘贴到底部。\n.topbutton { height:32px; width:32px; position:fixed; right:6%; bottom:8%; Z-index:1; background-image:url(\"https://guozh.net/wp-content/uploads/2022/12/scroll_to-top.png\"); background-repeat:no-repeat; background-size:100% 100%; -moz-background-size:100% 100%; display:none; } 3、打开functions.php，复制粘贴如下代码到底部。\n/** * 回到顶部 */ function my_scripts_method() { wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/topbutton.js', array( 'jquery' ) ); } add_action( 'wp_enqueue_scripts', 'my_scripts_method' ); 4、在foot.php文件添加如下代码\n 三、首页显示摘要 修改twentytwelve主题中content.php文件。\n改成\n","wordCount":"226","inLanguage":"zh","datePublished":"2023-06-09T20:33:48+08:00","dateModified":"2023-06-09T20:33:48+08:00","author":{"@type":"Person","name":"MagicQ"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://i.bairuicc.com/posts/20230610/"},"publisher":{"@type":"Organization","name":"子曰","logo":{"@type":"ImageObject","url":"https://i.bairuicc.com/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -85,7 +85,7 @@ wordpress网站优化记录
 <p>3.WP-PageNavi 设置分页。</p>
 <p>4.WPJAM BASIC 用来优化网站，加速网站运行。</p>
 <p>下面是一些代码实现的功能：</p>
-<p><strong>1、只搜索标题</strong></p>
+<p><strong>一、只搜索标题</strong></p>
 <pre tabindex=0><code>add_filter( 'posts_search', '_search_by_title', 10, 2 );
 function _search_by_title( $search, $wp_query ) {
     if ( ! empty( $search ) &amp;&amp; ! empty( $wp_query-&gt;query_vars['search_terms'] ) ) {
@@ -101,7 +101,7 @@ function _search_by_title( $search, $wp_query ) {
     }
     return $search;
 }
-</code></pre><p><strong>2、回到顶部</strong></p>
+</code></pre><p><strong>二、回到顶部</strong></p>
 <p>1、参考How to Create a Scroll Back-to-Top Button in WordPress，创建topbutton.js，将以下代码复制到文件。</p>
 <pre tabindex=0><code>jQuery(document).ready(function($){
     var offset = 100;
@@ -148,7 +148,7 @@ function my_scripts_method() {
 add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 </code></pre><p>4、在foot.php文件添加如下代码</p>
 <pre tabindex=0><code>&lt;a href=&quot;#&quot; class=&quot;topbutton&quot;&gt;&lt;/a&gt;
-</code></pre><p><strong>3、首页显示摘要</strong>
+</code></pre><p><strong>三、首页显示摘要</strong>
 修改twentytwelve主题中content.php文件。</p>
 <pre tabindex=0><code>&lt;?php if ( is_search() ) : // Only display Excerpts for Search ?&gt;
 </code></pre><p>改成</p>
