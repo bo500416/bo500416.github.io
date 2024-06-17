@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://i.bairuicc.com/sitemap.xml
+Sitemap: https://i.gw100.top/sitemap.xml
