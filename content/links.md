@@ -22,5 +22,6 @@ summary: links
 &nbsp;&nbsp;&nbsp;&nbsp;[段先森](https://www.duanxiansen.com/)
 &nbsp;&nbsp;&nbsp;&nbsp;[莫比乌斯](https://onojyun.com/) 
 &nbsp;&nbsp;&nbsp;&nbsp;[编程指北](https://csguide.cn/) 
+&nbsp;&nbsp;&nbsp;&nbsp;[叶开](https://qq.md/) 
 
 
