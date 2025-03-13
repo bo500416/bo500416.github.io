@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>github on 子曰</title>
-    <link>iblog.zone.id/tags/github/</link>
-    <description>Recent content in github on 子曰</description>
+    <title>github on Shaohan&#39;s Blog</title>
+    <link>https://iblog.zone.id/tags/github/</link>
+    <description>Recent content in github on Shaohan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
-    <lastBuildDate>Thu, 20 Apr 2023 20:33:48 +0800</lastBuildDate><atom:link href="iblog.zone.id/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 Apr 2023 20:33:48 +0800</lastBuildDate><atom:link href="https://iblog.zone.id/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>github不能自动部署了</title>
-      <link>iblog.zone.id/posts/20230421/</link>
+      <link>https://iblog.zone.id/posts/20230421/</link>
       <pubDate>Thu, 20 Apr 2023 20:33:48 +0800</pubDate>
       
-      <guid>iblog.zone.id/posts/20230421/</guid>
+      <guid>https://iblog.zone.id/posts/20230421/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>这样打开github</title>
-      <link>iblog.zone.id/posts/opengithub/</link>
+      <link>https://iblog.zone.id/posts/opengithub/</link>
       <pubDate>Sat, 20 Nov 2021 20:47:57 +0800</pubDate>
       
-      <guid>iblog.zone.id/posts/opengithub/</guid>
+      <guid>https://iblog.zone.id/posts/opengithub/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>自动部署后发的第一篇文章</title>
-      <link>iblog.zone.id/posts/zidongbushu/</link>
+      <link>https://iblog.zone.id/posts/zidongbushu/</link>
       <pubDate>Thu, 18 Nov 2021 20:33:48 +0800</pubDate>
       
-      <guid>iblog.zone.id/posts/zidongbushu/</guid>
+      <guid>https://iblog.zone.id/posts/zidongbushu/</guid>
       <description> </description>
     </item>
     
