@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>天气 on 子曰</title>
-    <link>/tags/%E5%A4%A9%E6%B0%94/</link>
+    <link>iblog.zone.id/tags/%E5%A4%A9%E6%B0%94/</link>
     <description>Recent content in 天气 on 子曰</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 06 Nov 2021 21:06:13 +0800</lastBuildDate><atom:link href="/tags/%E5%A4%A9%E6%B0%94/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Nov 2021 21:06:13 +0800</lastBuildDate><atom:link href="iblog.zone.id/tags/%E5%A4%A9%E6%B0%94/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>今天的天气百年一见</title>
-      <link>/posts/2021-11-6/</link>
+      <link>iblog.zone.id/posts/2021-11-6/</link>
       <pubDate>Sat, 06 Nov 2021 21:06:13 +0800</pubDate>
       
-      <guid>/posts/2021-11-6/</guid>
+      <guid>iblog.zone.id/posts/2021-11-6/</guid>
       <description> </description>
     </item>
     
