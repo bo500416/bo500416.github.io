@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hugo on 子曰</title>
-    <link>/tags/hugo/</link>
+    <link>iblog.zone.id/tags/hugo/</link>
     <description>Recent content in hugo on 子曰</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 26 Nov 2021 20:57:45 +0800</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 20:57:45 +0800</lastBuildDate><atom:link href="iblog.zone.id/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo &#43; Github Actions 实现自动化部署</title>
-      <link>/posts/hugozidong/</link>
+      <link>iblog.zone.id/posts/hugozidong/</link>
       <pubDate>Fri, 26 Nov 2021 20:57:45 +0800</pubDate>
       
-      <guid>/posts/hugozidong/</guid>
+      <guid>iblog.zone.id/posts/hugozidong/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>怪不得域名一直掉</title>
-      <link>/posts/yumingdiao/</link>
+      <link>iblog.zone.id/posts/yumingdiao/</link>
       <pubDate>Fri, 19 Nov 2021 22:34:38 +0800</pubDate>
       
-      <guid>/posts/yumingdiao/</guid>
+      <guid>iblog.zone.id/posts/yumingdiao/</guid>
       <description> </description>
     </item>
     
