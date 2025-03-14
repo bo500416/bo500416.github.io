@@ -1,141 +1,172 @@
-baseURL: https://iblog.zone.id/
-languageCode: zh-cn
-defaultContentLanguage: zh
-title: 子曰
-theme: PaperMod
+baseURL: https://iblog.zone.id/ # 绑定的域名
+title: 子 曰
+paginate: 10    # 首页每页显示的文章数
+theme: PaperMod # 主题名称，和themes文件夹下的一致
+languageCode: zh-cn # en-us
 
+hasCJKLanguage: false # 自动检测是否包含中文日文韩文,如果文章中使用了很多中文引号的话可以开启
+enableInlineShortcodes: true
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
 
-# googleAnalytics: UA-123-456
 
 minify:
-disableXML: true
-minifyOutput: true
+    disableXML: true
+    # minifyOutput: true
+
+
+defaultContentLanguage: zh # 最顶部首先展示的语言页面
+defaultContentLanguageInSubdir: true
+
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 
 params:
-env: production # to enable google analytics, opengraph, twitter-cards and schema.
-title: 子曰
-description: "学而时习之，不亦说乎。"
-keywords: [博客,日常,思考]
-# author: ["Me", "You"] # multiple authors
-#images: ["<link or path of image for opengraph, twitter-cards>"]
-DateFormat: "January 2, 2006"
-defaultTheme: auto # dark, light
-disableThemeToggle: false # 显示切换主题
-
-ShowReadingTime: false
-ShowShareButtons: false #分享按钮
-ShowPostNavLinks: true
-ShowBreadCrumbs: false #面包屑导航
-ShowCodeCopyButtons: true #代码片段显示复制
-disableSpecial1stPost: false
-disableScrollToTop: false #直接到顶,需在meta中增加
-comments: false #回复开关
-hidemeta: false
-hideSummary: false
-showtoc: true #显示目录
-tocopen: false
-
-assets:
-# disableHLJS: true # to disable highlight.js
-# disableFingerprinting: true
-favicon: "/favicon.ico"
-#favicon16x16: "/favicon.ico"
-#favicon32x32: "/favicon.ico"
-#apple_touch_icon: "<link/ abs url>"
-#safari_pinned_tab: "<link/ abs url>"
-
-label:
-text: "子 曰" #左上标题文字
-#icon: /apple-touch-icon.png
-#iconHeight: 35
-
-# profile-mode 另一种主题模式
-profileMode:
-enabled: false # needs to be explicitly set
-title: ExampleSite
-subtitle: "This is subtitle"
-imageUrl: "< img location>"
-imageWidth: 120
-imageHeight: 120
-imageTitle: my image
-buttons:
-- name: Posts
-url: posts
-- name: Tags
-url: tags
-
-# home-info mode
-homeInfoParams:
-Title: "Hello World \U0001F44B"
-Content: 江南可采莲，莲叶何田田。
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "学而时习之，不亦说乎。"
+    author: Shaohan Tian
+    # author: ["Me", "You"] # multiple authors
 
 
-鱼戏莲叶间。
+    defaultTheme: auto  # defaultTheme: light or  dark
+    disableThemeToggle: false
+    DateFormat: "2006-01-02"
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecialistPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    hideFooter: false # 隐藏页脚
+    ShowWordCounts: true
+    VisitCount: true
+
+    ShowLastMod: true #显示文章更新时间
+
+    ShowToc: true # 显示目录
+    TocOpen: true # 自动展开目录
+
+    comments: true
+
+    # socialIcons:
+    #     - name: github
+    #       url: "https://github.com/tianshaohan"
+    #     # - name: twitter
+    #     #   url:  "img/twitter.png"
+    #     - name: bilibili
+    #       url: "https://space.bilibili.com/395280439"
+    #     - name: QQ
+    #       url: "img/qq.jpg"
+    #     - name: email
+    #       url: "mailto:shaohan.tian@foxmail.com"
+    #     - name: RSS
+    #       url: "index.xml"
+        # - name: facebook
+        #   url: "https://www.facebook.com/profile.php?id=100027782410997"
+        # - name: instagram
+        #   url: "img/instagram.png"
+        # - name: QQ
+        #   url: "img/qq.png"
+        # - name: Phone
+        #   url: "img/phone.png"
 
 
-鱼戏莲叶东，鱼戏莲叶西，鱼戏莲叶南，鱼戏莲叶北。
+    # editPost:
+    #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    #     Text: "Suggest Changes" # edit text
+    #     appendFilePath: true # to append file path to Edit link
 
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
 
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
 
-cover:
-hidden: true # hide everywhere but not in structured data
-hiddenInList: true # hide on list pages and home
-hiddenInSingle: true # hide on single page
+    assets:
+        favicon: "/favicon.ico"
+        # favicon16x16: "img/logo.gif"
+        # favicon32x32: "img/logo.gif"
+        # apple_touch_icon: "logo.gif"
+        # safari_pinned_tab: "logo.gif"
 
-# editPost:
-URL: "https://github.com/<path_to_repo>/content"
-Text: "Suggest Changes" # edit text
-appendFilePath: true # to append file path to Edit link
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
 
-# for search
-# https://fusejs.io/api/options.html
-outputs:
-home:
-- HTML
-- RSS
-- JSON # is necessary
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 1
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary"]
 
+    # twikoo:
+    #   version: 1.4.11
 
-fuseOpts:
-isCaseSensitive: false
-shouldSort: true
-location: 0
-distance: 1000
-threshold: 0.4
-minMatchCharLength: 0
-keys: ["title", "permalink", "summary", "content"]
-menu:
-main:
-# - identifier: categories
-# name: 分类
-# url: /categories/
-# weight: 10
-- identifier: tags
-name: 标签
-url: /tags/
-weight: 20
-- identifier: archives
-name: 归档
-url: /archives/
-weight: 30
-- identifier: search
-name: 搜索
-url: /search/
-weight: 40
-- identifier: links
-name: 链接
-url: /links/
-weight: 60
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-# highlight:
-# # anchorLineNos: true
-# codeFences: true
-# guessSyntax: true
-# lineNos: true
-# style: monokai
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话
+    highlight:
+        # anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        # noClasses: false
+        # style: monokai
+        style: darcula
+
+        # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
+        # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
+        # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
+        # lineNoStart：行号从编号几开始，一般从 1 开始。
+        # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
+        # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
+        # noClasses：使用 class 标签，而不是内嵌的内联样式
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
