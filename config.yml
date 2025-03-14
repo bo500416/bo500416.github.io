@@ -42,7 +42,7 @@ params:
     defaultTheme: auto  # defaultTheme: light or  dark
     disableThemeToggle: false
     DateFormat: "2006-01-02"
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     # disableSpecialistPost: true
     displayFullLangName: true
@@ -58,7 +58,7 @@ params:
     ShowToc: true # 显示目录
     TocOpen: true # 自动展开目录
 
-    comments: true
+    comments: false
 
     # socialIcons:
     #     - name: github
