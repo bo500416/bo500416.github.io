@@ -214,14 +214,14 @@
 <p>网站清空后，首页能进，但是后台进不了了，不知道怎么回事，百度后，解决了。</p>
 <p>原来是：</p>
 <p>修改wp-config.php，添加如下代码</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#727272">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#727272">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#727272">3
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$_SERVER[&#39;HTTPS&#39;] = &#39;on&#39;;
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$_SERVER[&#39;HTTPS&#39;] = &#39;on&#39;;
 define(&#39;FORCE_SSL_LOGIN&#39;, true);
 define(&#39;FORCE_SSL_ADMIN&#39;, true);
 </code></pre></td></tr></table>
