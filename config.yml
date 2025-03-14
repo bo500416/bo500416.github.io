@@ -52,7 +52,7 @@ params:
     hideFooter: false # 隐藏页脚
     ShowWordCounts: true
     VisitCount: true
-disableSpecial1stPost: true
+disableSpecial1stPost: false
     ShowLastMod: true #显示文章更新时间
 
     ShowToc: true # 显示目录
