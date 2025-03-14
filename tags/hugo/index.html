@@ -5,17 +5,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>hugo - Shaohan&#39;s Blog</title>
+<title>hugo - 子 曰</title>
 <meta name="keywords" content="" />
-<meta name="description" content="这是一个纯粹的博客......">
+<meta name="description" content="学而时习之，不亦说乎。">
 <meta name="author" content="Shaohan Tian">
 <link rel="canonical" href="https://iblog.zone.id/tags/hugo/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.28dbc15444e33af3fcfee5bbd7882b3c507533767351dc4ca3877b6d6bcd0239.css" integrity="sha256-KNvBVETjOvP8/uW714grPFB1M3ZzUdxMo4d7bWvNAjk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://iblog.zone.id/img/logo.gif">
-<link rel="icon" type="image/png" sizes="16x16" href="https://iblog.zone.id/img/logo.gif">
-<link rel="icon" type="image/png" sizes="32x32" href="https://iblog.zone.id/img/logo.gif">
-<link rel="apple-touch-icon" href="https://iblog.zone.id/logo.gif">
-<link rel="mask-icon" href="https://iblog.zone.id/logo.gif">
+<link rel="icon" href="https://iblog.zone.id/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://iblog.zone.id/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://iblog.zone.id/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://iblog.zone.id/apple-touch-icon.png">
+<link rel="mask-icon" href="https://iblog.zone.id/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.88.0" />
@@ -57,13 +57,13 @@
 
     </style>
 </noscript><meta property="og:title" content="hugo" />
-<meta property="og:description" content="这是一个纯粹的博客......" />
+<meta property="og:description" content="学而时习之，不亦说乎。" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://iblog.zone.id/tags/hugo/" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="hugo"/>
-<meta name="twitter:description" content="这是一个纯粹的博客......"/>
+<meta name="twitter:description" content="学而时习之，不亦说乎。"/>
 
 </head>
 
@@ -82,7 +82,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://iblog.zone.id" accesskey="h" title="Shaohan&#39;s Blog (Alt + H)">Shaohan&#39;s Blog</a>
+            <a href="https://iblog.zone.id/" accesskey="h" title="子 曰 (Alt + H)">子 曰</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -107,41 +107,11 @@
             </span>
         </div>
         <ul id="menu">
-            <li>
-                <a href="https://iblog.zone.id/search" title="🔍搜索 (Alt &#43; /)" accesskey=/>
-                    <span>🔍搜索</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/" title="🏠主页">
-                    <span>🏠主页</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/posts" title="📚文章">
-                    <span>📚文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/archives" title="⏱时间轴">
-                    <span>⏱时间轴</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/tags" title="🔖标签">
-                    <span>🔖标签</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/about" title="🙋🏻‍♂️关于">
-                    <span>🙋🏻‍♂️关于</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://iblog.zone.id">主页</a>&nbsp;»&nbsp;<a href="https://iblog.zone.id/tags/">标签</a></div>
+<header class="page-header"><div class="breadcrumbs"><a href="https://iblog.zone.id/">主页</a>&nbsp;»&nbsp;<a href="https://iblog.zone.id/tags/">标签</a></div>
   <h1>hugo</h1>
 </header>
 
@@ -151,7 +121,13 @@
     </h2>
   </header>
   <section class="entry-content">
-    <p>上传 Hugo 源文件 把 Hugo 程序 push 到 GitHub 上，GitHub 上新建一个 repo，并只需保留以下文件上传到 master ，同时随手建个 gh-pages 分支： 添加 Github Actions 代码： 实现效果，直接网...</p>
+    <p>上传 Hugo 源文件 把 Hugo 程序 push 到 GitHub 上，GitHub 上新建一个 repo，并只需保留以下文件上传到 master ，同时随手建个 gh-pages 分支：
+添加 Github Actions 代码： 实现效果，直接网页上修改 data/links.toml 或任意文件，触发 Actions 自动化运行 Hugo 程序生成静态文件并推送到 gh-pages 分支上，等待几十秒可看到更新。
+具体操作：
+点 https://github.com/settings/tokens 新建一个，勾选 repo 和 workflow ,暂存；
+进项目 settings/secrets 新建标题为 personal_token ，内容是刚创建的 tokens ;
+回项目，点 Actions – New wordflow – Set up a workflow yourself ，添加如下代码：
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28  name: Deploy Hugo # 任君喜欢 on: push: branches: - master # master 更新触发 jobs: build-deploy: runs-on: ubuntu-18....</p>
   </section>
   <footer class="entry-footer"><span title='2021-11-26 20:57:45 +0800 +0800'>2021-11-26</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;MagicQ</footer>
   <a class="entry-link" aria-label="post link to Hugo &#43; Github Actions 实现自动化部署" href="https://iblog.zone.id/posts/hugozidong/"></a>
@@ -175,7 +151,7 @@
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="https://iblog.zone.id">Shaohan&#39;s Blog</a></span>
+    <span>&copy; 2025 <a href="https://iblog.zone.id/">子 曰</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
