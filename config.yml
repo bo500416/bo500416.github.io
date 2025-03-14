@@ -82,28 +82,7 @@ params:
         # - name: Phone
         #   url: "img/phone.png"
 
-menu:
-    main:
-       #  - identifier: categories
-        #  name: 分类
-        #  url: /categories/
-         # weight: 10
-        - identifier: tags
-          name: 标签
-          url: /tags/
-          weight: 20
-        - identifier: archives
-          name: 归档
-          url: /archives/
-          weight: 30
-        - identifier: search
-          name: 搜索
-          url: /search/
-          weight: 40
-        - identifier: links
-          name: 链接
-          url: /links/
-          weight: 61
+
     # editPost:
     #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
     #     Text: "Suggest Changes" # edit text
@@ -138,7 +117,28 @@ menu:
         threshold: 1
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary"]
-
+menu:
+    main:
+       #  - identifier: categories
+        #  name: 分类
+        #  url: /categories/
+         # weight: 10
+        - identifier: tags
+          name: 标签
+          url: /tags/
+          weight: 20
+        - identifier: archives
+          name: 归档
+          url: /archives/
+          weight: 30
+        - identifier: search
+          name: 搜索
+          url: /search/
+          weight: 40
+        - identifier: links
+          name: 链接
+          url: /links/
+          weight: 61
     # twikoo:
     #   version: 1.4.11
 
