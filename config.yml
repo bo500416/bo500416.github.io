@@ -1,85 +1,91 @@
 baseURL: "https://iblog.zone.id/"
-title: 子曰
-paginate: 10
+title: 子 曰
+languageCode: zh-cn
+defaultContentLanguage: zh
 theme: PaperMod
+# paginate: 5
+
+
+minify:  #启用或禁用文件压缩（缩小）功能。
+  disableXML: true #禁用 XML 文件的压缩。
+  minifyOutput: true #启用输出文件压缩。
 
 params:
-  env: production # 设置站点的环境。
-  title: 子曰 #站点的名称。
-  description: "学而时习之，不亦说乎。" #站点的简短描述。  
+  env: production # 设置站点的环境。to enable google analytics, opengraph, twitter-cards and schema.
+  title: 子 曰 #站点的名称。
+  description: "学而时习之，不亦说乎。" #站点的简短描述。
+  keywords: [博客,日常,思考] #站点的关键词。
+  # author: Me #站点的作者名称。
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"] #用于 OpenGraph 和 Twitter 卡片的图像链接。
   DateFormat: "January 2, 2006" #设置日期格式。
   defaultTheme: auto # dark, light  设置站点默认主题。
   disableThemeToggle: false #是否禁用主题切换按钮。
 
-  ShowCodeCopyButtons: true #是否显示代码复制按钮。  
-  UseHugoToc: true #是否使用 Hugo 内置的目录功能。  
-  disableScrollToTop: false #是否禁用页面顶部滚动按钮。  
-  hidemeta: false #是否隐藏元数据（如作者、发布日期等）。
-  
+  disableScrollToTop: false #是否禁用页面顶部滚动按钮。
+  ShowPostNavLinks: true
+  comments: false #是否启用评论功能。 
+  hidemeta: true #是否隐藏元数据（如作者、发布日期等）。
+  hideSummary: false #是否隐藏文章摘要。
+  showtoc: false #是否显示目录
+  tocopen: false #目录是否默认展开。
 
   assets: #这一部分配置用于设置站点的图标和图像资源。
     # disableHLJS: true # 禁用 highlight.js
     # disableFingerprinting: true #禁用资源指纹 当设置为 true 时，Hugo 不会为站点的静态资源（如 CSS、JS 文件）添加版本号（指纹）。资源指纹通常用于缓存控制，通过文件名中的哈希值标识文件的版本。如果禁用指纹，文件的 URL 不会自动变更，可能影响缓存更新。
     favicon: "/favicon.ico" #设置站点的 favicon 图标。
-   
+    # favicon16x16: "/favicon.ico" #设置 16x16 像素大小的 favicon 图标。
+    # favicon32x32: "/favicon.ico" #设置 32x32 像素大小的 favicon 图标。
+    # apple_touch_icon: "/favicon.ico" #设置适用于 Apple 设备的触摸屏图标（如 iPhone、iPad）。
+    # safari_pinned_tab: "/favicon.ico" #设置用于 Safari 浏览器 的固定标签页图标。
 
+  label: #这一部分配置用于设置站点标签的文本和图标。
+    text: "子 曰" #设置标签的文本 这是显示在标签上的文本，通常用于表示站点的主页面或主页。这里设置为 Home，意味着标签上会显示“Home”这个文本。
+    # icon: /favicon.ico #设置标签的图标。这是为标签指定的图标，通常是用于导航、按钮或应用图标的图像。在这里，/apple-touch-icon.png 指向一个图像文件，表示将这个文件作为图标使用。
+    # iconHeight: 35 #设置标签图标的高度。
 
-
-  # home-info mode 该部分配置用于设置主页的欢迎信息或自定义内容，通常显示在首页的某个位置。
   homeInfoParams: 
-    Title: "Hello Word \U0001F44B" #设置主页的欢迎标题。
-    Content: 欲买桂花同载酒，终不似，少年游。 #设置主页的内容/副标题。
+    Title: "Hello World \U0001F44B" #设置主页的欢迎标题。
+    Content: 欲买桂花同载酒，终不似，少年游。。
 
-  
-  
+
   editPost: #这一部分配置用于设置在文章页面上显示的“编辑”链接，通常用于 GitHub 存储库中的内容，允许用户建议更改文章。
     URL: "https://github.com/<path_to_repo>/content" #设置编辑链接的目标 URL。
     Text: "Suggest Changes" # 设置显示在“编辑”按钮上的文本。
     appendFilePath: true # 是否将文件路径附加到编辑链接。
-  # for search 这部分没有直接的配置，而是一个注释，指向了一个搜索库 Fuse.js 的 API 选项链接。Fuse.js 是一个轻量级的 JavaScript 库，通常用于实现客户端搜索功能。你可以根据链接中的文档调整搜索配置，以满足站点的搜索需求。
+  # for search
   # https://fusejs.io/api/options.html
   outputs:
     home:
-    - HTML
-    - RSS
-    - JSON # is necessary
-  fuseOpts: #这部分配置用于设置 Fuse.js 搜索库的选项，Fuse.js 是一个 JavaScript 库，通常用于客户端实现模糊搜索。你可以配置搜索行为来控制搜索的精度和灵敏度。
+      - HTML
+      - RSS
+      - JSON # 添加此项
+    fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0      
+      keys: ["title", "permalink", "summary", "content"]
 
-    isCaseSensitive: false #是否启用区分大小写的搜索。
-    shouldSort: true #是否启用搜索结果排序。
-    location: 0 #控制搜索匹配位置的权重。
-    distance: 1000 #控制模糊搜索的“距离”。
-    threshold: 0.4 #设置搜索匹配的精度阈值。
-    minMatchCharLength: 0 #设置搜索最小匹配字符长度。
-    limit: 10 # 限制搜索返回的结果数量。
-    keys: ["title", "permalink", "summary", "content"] #指定搜索的字段。
 menu: #这部分配置用于定义站点的导航菜单，菜单通常显示在页面的顶部或侧边栏，提供访问不同页面或内容的链接。
 
   main: #设置主导航菜单项。main 下的每一项定义了一个菜单项，包括标识符、名称、URL 和权重。
-    - identifier: tags
-    name: 标签
-    url: /tags/
-    weight: 20
+    - identifier: tags #定义菜单项的标识符。
+      name: 标签 #设置菜单项的显示名称。
+      url: /tags/ #设置菜单项的链接地址。
+      weight: 20 #设置菜单项的权重。
     - identifier: archives
-    name: 归档
-    url: /archives/
-    weight: 30
+      name: 归档
+      url: /archives/
+      weight: 30
     - identifier: search
-    name: 搜索
-    url: /search/
-    weight: 40
+      name: 搜索
+      url: /search/
+      weight: 40
     - identifier: links
-    name: 链接
-    url: /links/
-    weight: 60
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true #这部分配置涉及到 Hugo 语法高亮的相关设置。 是否启用 Pygments 使用 CSS 类来应用代码高亮
-markup: #这部分配置用于控制代码高亮的设置。
-  highlight:
-    noClasses: false #是否禁用 CSS 类用于代码高亮。
-    # anchorLineNos: true #是否在代码块的行号旁边显示锚点链接。
-    # codeFences: true #是否启用代码围栏（fenced code blocks）语法。
-    # guessSyntax: true #是否自动推断代码块的语法。
-    # lineNos: true #是否显示代码块的行号。
-    # style: monokai #设置代码高亮的样式。
+      name: 链接
+      url: /links/
+      weight: 60
 
