@@ -61,15 +61,6 @@ params:
       - RSS
       - JSON # is necessary
 
-
-      fuseOpts:
-      isCaseSensitive: false
-      shouldSort: true
-      location: 0
-      distance: 1000
-      threshold: 0.4
-      minMatchCharLength: 0
-      keys: ["title", "permalink", "summary", "content"]
 menu: #这部分配置用于定义站点的导航菜单，菜单通常显示在页面的顶部或侧边栏，提供访问不同页面或内容的链接。
 
   main: #设置主导航菜单项。main 下的每一项定义了一个菜单项，包括标识符、名称、URL 和权重。
