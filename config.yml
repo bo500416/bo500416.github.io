@@ -56,19 +56,18 @@ params:
   # for search
   # https://fusejs.io/api/options.html
   outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # 添加此项
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
+    home:
+      - HTML
+      - RSS
+      - JSON # 添加此项
+    fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0      
+      keys: ["title", "permalink", "summary", "content"]
 
 menu: #这部分配置用于定义站点的导航菜单，菜单通常显示在页面的顶部或侧边栏，提供访问不同页面或内容的链接。
 
@@ -88,5 +87,5 @@ menu: #这部分配置用于定义站点的导航菜单，菜单通常显示在�
     - identifier: links
       name: 链接
       url: /links/
-      weight: 50
+      weight: 60
 
