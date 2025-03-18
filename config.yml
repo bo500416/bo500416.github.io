@@ -1,68 +1,61 @@
-baseURL: "/"
-languageCode: zh
-defaultContentLanguage: zh
+baseURL: "https://iblog.zone.id/"
 title: 子曰
-theme: "PaperMod"
+paginate: 10
+theme: PaperMod
 
-enableRobotsTXT: true
-
-minify:
-  disableXML: true
-  minifyOutput: true
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: 子曰
-  description: "学而时习之，不亦说乎。"
-  keywords: [博客,日常,思考]  
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false # 显示切换主题
+  env: production # 设置站点的环境。
+  title: 子曰 #站点的名称。
+  description: "学而时习之，不亦说乎。" #站点的简短描述。  
+  DateFormat: "January 2, 2006" #设置日期格式。
+  defaultTheme: auto # dark, light  设置站点默认主题。
+  disableThemeToggle: false #是否禁用主题切换按钮。
+
+  ShowCodeCopyButtons: true #是否显示代码复制按钮。  
+  UseHugoToc: true #是否使用 Hugo 内置的目录功能。  
+  disableScrollToTop: false #是否禁用页面顶部滚动按钮。  
+  hidemeta: false #是否隐藏元数据（如作者、发布日期等）。
+  
+
+  assets: #这一部分配置用于设置站点的图标和图像资源。
+    # disableHLJS: true # 禁用 highlight.js
+    # disableFingerprinting: true #禁用资源指纹 当设置为 true 时，Hugo 不会为站点的静态资源（如 CSS、JS 文件）添加版本号（指纹）。资源指纹通常用于缓存控制，通过文件名中的哈希值标识文件的版本。如果禁用指纹，文件的 URL 不会自动变更，可能影响缓存更新。
+    favicon: "/favicon.ico" #设置站点的 favicon 图标。
+   
 
 
-  ShowPostNavLinks: true
 
-  ShowCodeCopyButtons: true #代码片段显示复制
-  showtoc: true #显示目录
+  # home-info mode 该部分配置用于设置主页的欢迎信息或自定义内容，通常显示在首页的某个位置。
+  homeInfoParams: 
+    Title: "Hello Word \U0001F44B" #设置主页的欢迎标题。
+    Content: 欲买桂花同载酒，终不似，少年游。 #设置主页的内容/副标题。
 
-assets:
-  favicon: "/favicon.ico"
+  
+  
+  editPost: #这一部分配置用于设置在文章页面上显示的“编辑”链接，通常用于 GitHub 存储库中的内容，允许用户建议更改文章。
+    URL: "https://github.com/<path_to_repo>/content" #设置编辑链接的目标 URL。
+    Text: "Suggest Changes" # 设置显示在“编辑”按钮上的文本。
+    appendFilePath: true # 是否将文件路径附加到编辑链接。
+  # for search 这部分没有直接的配置，而是一个注释，指向了一个搜索库 Fuse.js 的 API 选项链接。Fuse.js 是一个轻量级的 JavaScript 库，通常用于实现客户端搜索功能。你可以根据链接中的文档调整搜索配置，以满足站点的搜索需求。
+  # https://fusejs.io/api/options.html
+  outputs:
+    home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+  fuseOpts: #这部分配置用于设置 Fuse.js 搜索库的选项，Fuse.js 是一个 JavaScript 库，通常用于客户端实现模糊搜索。你可以配置搜索行为来控制搜索的精度和灵敏度。
 
-label:
-  text: "子 曰" #左上标题文字
+    isCaseSensitive: false #是否启用区分大小写的搜索。
+    shouldSort: true #是否启用搜索结果排序。
+    location: 0 #控制搜索匹配位置的权重。
+    distance: 1000 #控制模糊搜索的“距离”。
+    threshold: 0.4 #设置搜索匹配的精度阈值。
+    minMatchCharLength: 0 #设置搜索最小匹配字符长度。
+    limit: 10 # 限制搜索返回的结果数量。
+    keys: ["title", "permalink", "summary", "content"] #指定搜索的字段。
+menu: #这部分配置用于定义站点的导航菜单，菜单通常显示在页面的顶部或侧边栏，提供访问不同页面或内容的链接。
 
-
-
-# home-info mode
-homeInfoParams:
-Title: "Hello Word \U0001F44B"
-Content: 欲买桂花同载酒，终不似，少年游。
-
-
-cover:
-hidden: true # hide everywhere but not in structured data
-hiddenInList: true # hide on list pages and home
-hiddenInSingle: true # hide on single page
-
-
-# for search
-# https://fusejs.io/api/options.html
-outputs:
-home:
-- HTML
-- RSS
-- JSON # is necessary
-
-
-fuseOpts:
-  isCaseSensitive: false
-  shouldSort: true
-  location: 0
-  distance: 1000
-  threshold: 0.4
-  minMatchCharLength: 0
-  keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
+  main: #设置主导航菜单项。main 下的每一项定义了一个菜单项，包括标识符、名称、URL 和权重。
     - identifier: tags
     name: 标签
     url: /tags/
@@ -79,6 +72,14 @@ menu:
     name: 链接
     url: /links/
     weight: 60
-
-
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true #这部分配置涉及到 Hugo 语法高亮的相关设置。 是否启用 Pygments 使用 CSS 类来应用代码高亮
+markup: #这部分配置用于控制代码高亮的设置。
+  highlight:
+    noClasses: false #是否禁用 CSS 类用于代码高亮。
+    # anchorLineNos: true #是否在代码块的行号旁边显示锚点链接。
+    # codeFences: true #是否启用代码围栏（fenced code blocks）语法。
+    # guessSyntax: true #是否自动推断代码块的语法。
+    # lineNos: true #是否显示代码块的行号。
+    # style: monokai #设置代码高亮的样式。
 
