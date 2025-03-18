@@ -55,6 +55,11 @@ params:
     appendFilePath: true # 是否将文件路径附加到编辑链接。
   # for search
   # https://fusejs.io/api/options.html
+  outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # 添加此项
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
