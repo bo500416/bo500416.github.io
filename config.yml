@@ -43,3 +43,42 @@ hidden: true # hide everywhere but not in structured data
 hiddenInList: true # hide on list pages and home
 hiddenInSingle: true # hide on single page
 
+
+# for search
+# https://fusejs.io/api/options.html
+outputs:
+home:
+- HTML
+- RSS
+- JSON # is necessary
+
+
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: tags
+    name: 标签
+    url: /tags/
+    weight: 20
+    - identifier: archives
+    name: 归档
+    url: /archives/
+    weight: 30
+    - identifier: search
+    name: 搜索
+    url: /search/
+    weight: 40
+    - identifier: links
+    name: 链接
+    url: /links/
+    weight: 60
+
+
+
