@@ -5,7 +5,7 @@ name = "PaperMod"
 license = "MIT"
 licenselink = "https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE"
 description = "A fast, clean, responsive Hugo theme"
-homepage = "/"
+homepage = "https://iblog.zone.id/"
 tags = [
   "responsive",
   "simple",
