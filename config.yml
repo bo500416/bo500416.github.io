@@ -9,4 +9,37 @@ enableRobotsTXT: true
 minify:
   disableXML: true
   minifyOutput: true
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 子曰
+  description: "学而时习之，不亦说乎。"
+  keywords: [博客,日常,思考]  
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false # 显示切换主题
+
+
+  ShowPostNavLinks: true
+
+  ShowCodeCopyButtons: true #代码片段显示复制
+  showtoc: true #显示目录
+
+assets:
+  favicon: "/favicon.ico"
+
+label:
+  text: "子 曰" #左上标题文字
+
+
+
+# home-info mode
+homeInfoParams:
+Title: "Hello Word \U0001F44B"
+Content: 欲买桂花同载酒，终不似，少年游。
+
+
+cover:
+hidden: true # hide everywhere but not in structured data
+hiddenInList: true # hide on list pages and home
+hiddenInSingle: true # hide on single page
 
