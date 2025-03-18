@@ -55,16 +55,21 @@ params:
     appendFilePath: true # 是否将文件路径附加到编辑链接。
   # for search 这部分没有直接的配置，而是一个注释，指向了一个搜索库 Fuse.js 的 API 选项链接。Fuse.js 是一个轻量级的 JavaScript 库，通常用于实现客户端搜索功能。你可以根据链接中的文档调整搜索配置，以满足站点的搜索需求。
   # https://fusejs.io/api/options.html
-  fuseOpts: #这部分配置用于设置 Fuse.js 搜索库的选项，Fuse.js 是一个 JavaScript 库，通常用于客户端实现模糊搜索。你可以配置搜索行为来控制搜索的精度和灵敏度。
+    outputs:
+      home:
+      - HTML
+      - RSS
+      - JSON # is necessary
 
-    isCaseSensitive: false #是否启用区分大小写的搜索。
-    shouldSort: true #是否启用搜索结果排序。
-    location: 0 #控制搜索匹配位置的权重。
-    distance: 1000 #控制模糊搜索的“距离”。
-    threshold: 0.4 #设置搜索匹配的精度阈值。
-    minMatchCharLength: 0 #设置搜索最小匹配字符长度。
-    limit: 10 # 限制搜索返回的结果数量。
-    keys: ["title", "permalink", "summary", "content"] #指定搜索的字段。
+
+      fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
 menu: #这部分配置用于定义站点的导航菜单，菜单通常显示在页面的顶部或侧边栏，提供访问不同页面或内容的链接。
 
   main: #设置主导航菜单项。main 下的每一项定义了一个菜单项，包括标识符、名称、URL 和权重。
