@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>wordpress on 子 曰</title>
-    <link>https://iblog.zone.id/tags/wordpress/</link>
-    <description>Recent content in wordpress on 子 曰</description>
+    <title>wordpress on 子曰</title>
+    <link>iblog.zone.id/tags/wordpress/</link>
+    <description>Recent content in wordpress on 子曰</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 09 Jun 2023 20:33:48 +0800</lastBuildDate><atom:link href="https://iblog.zone.id/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language>
+    <lastBuildDate>Fri, 09 Jun 2023 20:33:48 +0800</lastBuildDate><atom:link href="iblog.zone.id/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>wordpress网站优化记录</title>
-      <link>https://iblog.zone.id/posts/20230610/</link>
+      <link>iblog.zone.id/posts/20230610/</link>
       <pubDate>Fri, 09 Jun 2023 20:33:48 +0800</pubDate>
       
-      <guid>https://iblog.zone.id/posts/20230610/</guid>
+      <guid>iblog.zone.id/posts/20230610/</guid>
       <description> </description>
     </item>
     
