@@ -1,4 +1,4 @@
-baseURL: iblog.zone.id
+baseURL: "https://iblog.zone.id/"
 languageCode: zh
 defaultContentLanguage: zh
 title: 子曰
