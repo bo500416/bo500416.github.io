@@ -5,12 +5,6 @@ defaultContentLanguage: zh
 theme: PaperMod
 # paginate: 5
 
-# enableRobotsTXT: false #启用 robots.txt 文件。
-# buildDrafts: false #是否构建草稿页面。
-# buildFuture: false #是否构建未来的内容。
-# buildExpired: false #是否构建过期的内容。
-
-# googleAnalytics: UA-123-45 #启用 Google Analytics
 
 minify:  #启用或禁用文件压缩（缩小）功能。
   disableXML: true #禁用 XML 文件的压缩。
@@ -28,15 +22,6 @@ params:
   defaultTheme: auto # dark, light  设置站点默认主题。
   disableThemeToggle: false #是否禁用主题切换按钮。
 
-  # ShowReadingTime: true #是否显示阅读时间。
-  # ShowShareButtons: true #是否显示社交分享按钮。
-  # ShowPostNavLinks: true #是否显示文章导航链接。
-  # ShowBreadCrumbs: true #是否显示面包屑导航。
-  # ShowCodeCopyButtons: false #是否显示代码复制按钮。
-  # ShowWordCount: true #是否显示字数统计。
-  # ShowRssButtonInSectionTermList: true #是否在分类或标签页面中显示 RSS 订阅按钮。
-  # UseHugoToc: true #是否使用 Hugo 内置的目录功能。
-  # disableSpecial1stPost: false #是否禁用对第一篇文章的特殊处理。
   disableScrollToTop: false #是否禁用页面顶部滚动按钮。
   comments: false #是否启用评论功能。 
   hidemeta: true #是否隐藏元数据（如作者、发布日期等）。
@@ -48,68 +33,20 @@ params:
     # disableHLJS: true # 禁用 highlight.js
     # disableFingerprinting: true #禁用资源指纹 当设置为 true 时，Hugo 不会为站点的静态资源（如 CSS、JS 文件）添加版本号（指纹）。资源指纹通常用于缓存控制，通过文件名中的哈希值标识文件的版本。如果禁用指纹，文件的 URL 不会自动变更，可能影响缓存更新。
     favicon: "/favicon.ico" #设置站点的 favicon 图标。
-    favicon16x16: "/favicon.ico" #设置 16x16 像素大小的 favicon 图标。
-    favicon32x32: "/favicon.ico" #设置 32x32 像素大小的 favicon 图标。
-    apple_touch_icon: "/favicon.ico" #设置适用于 Apple 设备的触摸屏图标（如 iPhone、iPad）。
-    safari_pinned_tab: "/favicon.ico" #设置用于 Safari 浏览器 的固定标签页图标。
+    # favicon16x16: "/favicon.ico" #设置 16x16 像素大小的 favicon 图标。
+    # favicon32x32: "/favicon.ico" #设置 32x32 像素大小的 favicon 图标。
+    # apple_touch_icon: "/favicon.ico" #设置适用于 Apple 设备的触摸屏图标（如 iPhone、iPad）。
+    # safari_pinned_tab: "/favicon.ico" #设置用于 Safari 浏览器 的固定标签页图标。
 
   label: #这一部分配置用于设置站点标签的文本和图标。
     text: "子 曰" #设置标签的文本 这是显示在标签上的文本，通常用于表示站点的主页面或主页。这里设置为 Home，意味着标签上会显示“Home”这个文本。
     icon: /favicon.ico #设置标签的图标。这是为标签指定的图标，通常是用于导航、按钮或应用图标的图像。在这里，/apple-touch-icon.png 指向一个图像文件，表示将这个文件作为图标使用。
     iconHeight: 35 #设置标签图标的高度。
 
-  # profile-mode
-  # profileMode: #该部分配置用于启用个人资料模式，通常显示个人信息、头像和相关按钮链接，适用于用户希望在站点上展示个人介绍的场景。
-  #   enabled: false # 是否启用个人资料模式。
-  #   title: ExampleSite #个人资料页面的标题。这是显示在个人资料区域的标题，通常是站点名称或者用户的个人名字。
-  #   subtitle: "This is subtitle" #个人资料页面的副标题。副标题用于提供更多关于个人或站点的描述，通常会展示一个简短的句子或引言。
-  #   imageUrl: "<img location>" #设置头像的图片链接。
-  #   imageWidth: 120 #设置头像图片的宽度。
-  #   imageHeight: 120 #设置头像图片的高度。
-  #   imageTitle: my image #设置头像图片的标题（alt 属性）。
-  #   buttons: #该部分设置个人资料页面上要显示的按钮和链接。你可以自定义多个按钮，链接到站点的其他部分。
-  #     - name: Posts #按钮的名称。按钮上显示的文字，这里是 "Posts"。
-  #       url: posts #按钮的链接地址。
-  #     - name: Tags
-  #       url: tags
-
-  # home-info mode 该部分配置用于设置主页的欢迎信息或自定义内容，通常显示在首页的某个位置。
   homeInfoParams: 
     Title: "Hello World \U0001F44B" #设置主页的欢迎标题。
     Content: 江南可采莲，莲叶何田田。
 
-
-鱼戏莲叶间。
-
-
-鱼戏莲叶东，鱼戏莲叶西，鱼戏莲叶南，鱼戏莲叶北。
-
-
- #设置主页的内容/副标题。
-
-  # socialIcons: #这一部分配置用于设置站点的社交媒体图标和链接，通常在站点的头部、页脚或侧边栏显示社交媒体的图标，方便访问者访问社交平台。
-
-  #   - name: x #指定社交平台的名称。
-  #     url: "https://x.com/" #设置社交平台的链接。
-  #   - name: stackoverflow
-  #     url: "https://stackoverflow.com"
-  #   - name: github
-  #     url: "https://github.com/"
-
-  # analytics: #这一部分配置用于设置站点的分析工具（如 Google、Bing 和 Yandex）验证标签，帮助验证你的网站所有权，并启用各大搜索引擎的分析服务。
-
-  #   google: #为 Google Search Console 提供网站验证标签。
-  #     SiteVerificationTag: "XYZabc"
-  #   bing:
-  #     SiteVerificationTag: "XYZabc"
-  #   yandex:
-  #     SiteVerificationTag: "XYZabc"
-
-  cover: #这一部分配置用于控制封面图像的显示与隐藏。封面图通常是网站首页或文章页面的顶部图像。
-
-    hidden: true # 隐藏封面图像。
-    hiddenInList: true # h隐藏封面图像在列表页和首页的显示。
-    hiddenInSingle: true # 隐藏封面图像在单个页面上的显示。
 
   editPost: #这一部分配置用于设置在文章页面上显示的“编辑”链接，通常用于 GitHub 存储库中的内容，允许用户建议更改文章。
     URL: "https://github.com/<path_to_repo>/content" #设置编辑链接的目标 URL。
@@ -133,27 +70,17 @@ menu: #这部分配置用于定义站点的导航菜单，菜单通常显示在�
     - identifier: tags #定义菜单项的标识符。
       name: 标签 #设置菜单项的显示名称。
       url: /tags/ #设置菜单项的链接地址。
-      weight: 10 #设置菜单项的权重。
+      weight: 20 #设置菜单项的权重。
     - identifier: archives
       name: 归档
       url: /archives/
-      weight: 20
+      weight: 30
     - identifier: search
       name: 搜索
       url: /search/
-      weight: 30
+      weight: 40
     - identifier: links
       name: 链接
       url: /links/
-      weight: 40
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true #这部分配置涉及到 Hugo 语法高亮的相关设置。 是否启用 Pygments 使用 CSS 类来应用代码高亮
-# markup: #这部分配置用于控制代码高亮的设置。
-#   highlight:
-#     noClasses: false #是否禁用 CSS 类用于代码高亮。
-    # anchorLineNos: true #是否在代码块的行号旁边显示锚点链接。
-    # codeFences: true #是否启用代码围栏（fenced code blocks）语法。
-    # guessSyntax: true #是否自动推断代码块的语法。
-    # lineNos: true #是否显示代码块的行号。
-    # style: monokai #设置代码高亮的样式。
+      weight: 50
 
