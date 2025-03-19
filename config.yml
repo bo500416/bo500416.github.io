@@ -1,6 +1,7 @@
 # 基础配置
 baseURL: "https://iblog.zone.id/"  # 你的博客的根URL
 languageCode: "zh-cn"  # 网站的默认语言代码
+defaultContentLanguage: "zh-cn"
 title: "子曰"  # 博客的标题
 theme: "PaperMod"  # 使用的主题名称
 
@@ -21,17 +22,12 @@ summaryLength: 140  # 文章概要显示的字数
 minify:
   disableXML: true  # 用XML文件压缩
 
-# 多语言支持
-defaultContentLanguage: "zh-cn"  # 默认内容语言代码
-languages:
-  zh-cn:
-    languageName: "简中"  # 语言显示名称
-    weight: 1  # 权重，决定语言的显示顺序
-    params:
-      homeInfoParams:
-        Title: "Hello World \U0001F44B"
-        Content: 欲买桂花同载酒，终不似，少年游。
-          ## 总得写点什么吧      
+# 主题选项
+params:
+  homeInfoParams:
+    Title: "Hello World \U0001F44B"
+    Content: 欲买桂花同载酒，终不似，少年游。 ## 总得写点什么吧
+               
 
 # 菜单配置
 menu:
@@ -63,6 +59,10 @@ params:
   ShowShareButtons: false  # 显示分享按钮
   ShowPostNavLinks: false  # 显示文章导航链接
   ShowBreadCrumbs: true  # 显示面包屑导航
+  assets: #这一部分配置用于设置站点的图标和图像资源。    
+    favicon: "/favicon.ico" #设置站点的 favicon 图标。
+  UseHugoToc: true #是否使用 Hugo 内置的目录功能。  
+  disableScrollToTop: false #是否禁用页面顶部滚动按钮。  
 
 
 # 搜索功能配置
