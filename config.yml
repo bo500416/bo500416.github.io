@@ -1,13 +1,13 @@
 # 基础配置
 baseURL: "https://iblog.zone.id/"  # 你的博客的根URL
-languageCode: "zh"  # 网站的默认语言代码
+languageCode: "zh-cn"  # 网站的默认语言代码
 defaultContentLanguage: "zh"
 title: "子曰"  # 博客的标题
 theme: "PaperMod"  # 使用的主题名称
 
 enableInlineShortcodes: false  # 启用内联短代码
-enableEmoji: true  # 启用Emoji表情支持
-enableRobotsTXT: true  # 生成 robots.txt 文件
+enableEmoji: false  # 启用Emoji表情支持
+enableRobotsTXT: false  # 生成 robots.txt 文件
 hasCJKLanguage: true  # 启用CJK语言支持
 
 
@@ -15,10 +15,8 @@ hasCJKLanguage: true  # 启用CJK语言支持
 buildDrafts: false  # 是否构建草稿文章
 buildFuture: false  # 是否构建将来发布时间的文章
 buildExpired: false  # 是否构建过期的文章
-
 paginate: 10 # 每页显示的文章数量
 summaryLength: 140  # 文章概要显示的字数
-
 minify:
   disableXML: true  # 用XML文件压缩
 
@@ -50,15 +48,16 @@ params:
   env: "production"  # 当前环境
   description: "学而时习之，不亦说乎。"  # 网站描述
   defaultTheme: "auto"  # 默认主题模式
-  ShowCodeCopyButtons: true  # 显示代码复制按钮
+  ShowCodeCopyButtons: false  # 显示代码复制按钮
   ShowReadingTime: false  # 显示阅读时间
   ShowShareButtons: false  # 显示分享按钮
-  ShowPostNavLinks: false  # 显示文章导航链接
-  ShowBreadCrumbs: true  # 显示面包屑导航
-  UseHugoToc: true #是否使用 Hugo 内置的目录功能。 
+  ShowPostNavLinks: false  # 显示文章导航链接  
+  ShowPostNavLinks: true
   homeInfoParams:
     Title: "Hello World \U0001F44B"
     Content: 欲买桂花同载酒，终不似，少年游。
+  assets: #这一部分配置用于设置站点的图标和图像资源。  
+    favicon: "/favicon.ico" #设置站点的 favicon 图标。
     
 
 
