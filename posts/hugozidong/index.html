@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="auto">
+<html lang="en" dir="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -101,7 +101,7 @@
   ],
   "articleBody": "上传 Hugo 源文件 把 Hugo 程序 push 到 GitHub 上，GitHub 上新建一个 repo，并只需保留以下文件上传到 master ，同时随手建个 gh-pages 分支：\n添加 Github Actions 代码： 实现效果，直接网页上修改 data/links.toml 或任意文件，触发 Actions 自动化运行 Hugo 程序生成静态文件并推送到 gh-pages 分支上，等待几十秒可看到更新。\n具体操作：\n点 https://github.com/settings/tokens 新建一个，勾选 repo 和 workflow ,暂存；\n进项目 settings/secrets 新建标题为 personal_token ，内容是刚创建的 tokens ;\n回项目，点 Actions – New wordflow – Set up a workflow yourself ，添加如下代码：\nname: Deploy Hugo # 任君喜欢\ron:\rpush:\rbranches:\r- master # master 更新触发\rjobs:\rbuild-deploy:\rruns-on: ubuntu-18.04\rsteps:\r- uses: actions/checkout@v1\r- name: Setup Hugo\ruses: peaceiris/actions-hugo@v2\rwith:\rhugo-version: latest\r- name: Build run: hugo\r- name: Deploy\ruses: peaceiris/actions-gh-pages@v3\rwith:\rpersonal_token: ${{ secrets.personal_token }} # personal_token 这里新建一个 https://github.com/settings/tokens\rPUBLISH_BRANCH: gh-pages # 推送到当前 gh-pages 分支\rPUBLISH_DIR: ./public # hugo 生成到 public 作为跟目录\rcommit_message: ${{ github.event.head_commit.message }}\r等，3、2、1，看看 Actions 顺利不，再看看 gh-pages 静态文件更新了不，最终打开 Pages ，祝贺！\n",
   "wordCount" : "307",
-  "inLanguage": "zh-cn",
+  "inLanguage": "en",
   "datePublished": "2021-11-26T20:57:45+08:00",
   "dateModified": "2021-11-26T20:57:45+08:00",
   "author":{
