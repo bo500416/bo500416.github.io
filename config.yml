@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://iblog.zone.id"
+title: 子曰
 paginate: 5
 theme: PaperMod
 
@@ -73,16 +73,10 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hello Word \U0001F44B"
+    Content: 欲买桂花同载酒，终不似，少年游。
 
-  socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+
 
   analytics:
     google:
