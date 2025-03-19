@@ -107,26 +107,6 @@
             </span>
         </div>
         <ul id="menu">
-            <li>
-                <a href="https://iblog.zone.id/tags" title="标签">
-                    <span>标签</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/archives" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/search" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/links" title="链接">
-                    <span>链接</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -141,7 +121,14 @@
     </h2>
   </header>
   <section class="entry-content">
-    <p>首先说明一下网站需用到的一些插件： 1.Loggedin - Limit Active Logins 设置同一时间只能登陆一个用户 2.WP-Members 设置未登录时首页只显示多少个字符。 3.WP-PageNavi 设置分页。 4.WPJAM BASIC 用来优化网站，加速网站运行。 下面是一些代码实现的功能： 一、只搜索标题 add_filter( &#39;posts_search&#39;, &#39;_search_by_title&#39;, 10, 2 ); function _search_by_title( $search, $wp_query ) { if ( ! empty( $search ) &amp;&amp; ! empty( $wp_query-&gt;query_vars[&#39;search_terms&#39;] ) ) { global $wpdb; $q = $wp_query-&gt;query_vars; $n = ! empty( $q[&#39;exact&#39;] ) ? &#39;&#39; : &#39;%&#39;; $search = array(); foreach...</p>
+    <p>首先说明一下网站需用到的一些插件：
+1.Loggedin - Limit Active Logins 设置同一时间只能登陆一个用户
+2.WP-Members 设置未登录时首页只显示多少个字符。
+3.WP-PageNavi	设置分页。
+4.WPJAM BASIC 用来优化网站，加速网站运行。
+下面是一些代码实现的功能：
+一、只搜索标题
+add_filter( &#39;posts_search&#39;, &#39;_search_by_title&#39;, 10, 2 ); function _search_by_title( $search, $wp_query ) { if ( ! empty( $search ) &amp;&amp; ! empty( $wp_query-&gt;query_vars[&#39;search_terms&#39;] ) ) { global $wpdb; $q = $wp_query-&gt;query_vars; $n = ! empty( $q[&#39;exact&#39;] ) ? &#39;&#39; : &#39;%&#39;; $search = array(); foreach ( ( array ) $q[&#39;search_terms&#39;] as $term ) $search[] = $wpdb-&gt;prepare( &#34;$wpdb-&gt;posts....</p>
   </section>
   <footer class="entry-footer"><span title='2023-06-09 20:33:48 +0800 +0800'>June 9, 2023</span>&nbsp;·&nbsp;MagicQ</footer>
   <a class="entry-link" aria-label="post link to wordpress网站优化记录" href="https://iblog.zone.id/posts/20230610/"></a>

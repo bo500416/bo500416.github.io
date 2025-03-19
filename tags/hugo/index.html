@@ -107,26 +107,6 @@
             </span>
         </div>
         <ul id="menu">
-            <li>
-                <a href="https://iblog.zone.id/tags" title="标签">
-                    <span>标签</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/archives" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/search" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/links" title="链接">
-                    <span>链接</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -141,7 +121,13 @@
     </h2>
   </header>
   <section class="entry-content">
-    <p>上传 Hugo 源文件 把 Hugo 程序 push 到 GitHub 上，GitHub 上新建一个 repo，并只需保留以下文件上传到 master ，同时随手建个 gh-pages 分支： 添加 Github Actions 代码： 实现效果，直接网页上修改 data/links.toml 或任意文件，触发 Actions 自动化运行 Hugo 程序生成静态文件并推送到 gh-pages 分支上，等待几十秒可看到更新。 具体操作： 点 https://github.com/settings/tokens 新建一个，勾选 repo 和 workflow ,暂存； 进...</p>
+    <p>上传 Hugo 源文件 把 Hugo 程序 push 到 GitHub 上，GitHub 上新建一个 repo，并只需保留以下文件上传到 master ，同时随手建个 gh-pages 分支：
+添加 Github Actions 代码： 实现效果，直接网页上修改 data/links.toml 或任意文件，触发 Actions 自动化运行 Hugo 程序生成静态文件并推送到 gh-pages 分支上，等待几十秒可看到更新。
+具体操作：
+点 https://github.com/settings/tokens 新建一个，勾选 repo 和 workflow ,暂存；
+进项目 settings/secrets 新建标题为 personal_token ，内容是刚创建的 tokens ;
+回项目，点 Actions – New wordflow – Set up a workflow yourself ，添加如下代码：
+name: Deploy Hugo # 任君喜欢on:push:branches:- master # master 更新触发jobs:build-deploy:runs-on: ubuntu-18....</p>
   </section>
   <footer class="entry-footer"><span title='2021-11-26 20:57:45 +0800 +0800'>November 26, 2021</span>&nbsp;·&nbsp;MagicQ</footer>
   <a class="entry-link" aria-label="post link to Hugo &#43; Github Actions 实现自动化部署" href="https://iblog.zone.id/posts/hugozidong/"></a>

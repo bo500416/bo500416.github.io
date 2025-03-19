@@ -107,26 +107,6 @@
             </span>
         </div>
         <ul id="menu">
-            <li>
-                <a href="https://iblog.zone.id/tags" title="标签">
-                    <span>标签</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/archives" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/search" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://iblog.zone.id/links" title="链接">
-                    <span>链接</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -141,7 +121,21 @@
     </h2>
   </header>
   <section class="entry-content">
-    <p>A&#43; 先说说A&#43;的问题，A&#43;是现在小学生作业做得好坏的一个评价，还有B、C什么的。 这是现在的评价，我们那个时候是没有这些的，都直接显示的分数。 最近小优的作业基本不用我们操心，都是她自己上完网课，写完作业，然后自己拍照上传的。 以前都是我们检查，检查完拍照上传，还有几次是A&#43;，最近她自己...</p>
+    <p>A&#43; 先说说A&#43;的问题，A&#43;是现在小学生作业做得好坏的一个评价，还有B、C什么的。
+这是现在的评价，我们那个时候是没有这些的，都直接显示的分数。
+最近小优的作业基本不用我们操心，都是她自己上完网课，写完作业，然后自己拍照上传的。
+以前都是我们检查，检查完拍照上传，还有几次是A&#43;，最近她自己弄，好久没有A&#43;了。
+昨晚，我正在玩电脑，她高高兴兴、蹦蹦跳跳跑过来，仿佛得来什么大奖似的，拿着手机让我看。
+我一看，A&#43;！！！，再看看她激动的样子，我就说你太厉害了，你看只要你字稍微写好一点就可以拿A&#43;，所以你以后字要写的认真点哦。
+她昨晚高兴的样子真的像是得了全年级第一。
+优，替你高兴。
+折腾网站 今天在家无聊，就看看那个网站，数据库快满了，自己也不想再掏钱增加，然后就想出个注意。
+数据库导出来，本地保存，网站把数据库清空，这样就可以了。
+但是导出来的数据库有100多M，本地软件打开都比较慢，算了，不管了，以后需要了再下载一个专门的软件吧。
+网站清空后，首页能进，但是后台进不了了，不知道怎么回事，百度后，解决了。
+原来是：
+修改wp-config.php，添加如下代码
+$_SERVER[&#39;HTTPS&#39;] = &#39;on&#39;;define(&#39;FORCE_SSL_LOGIN&#39;, true);define(&#39;FORCE_SSL_ADMIN&#39;, true);最后发现好像不是网站的问题，好像是cloudflare域名解析的问题。</p>
   </section>
   <footer class="entry-footer"><span title='2022-12-22 10:03:35 +0800 +0800'>December 22, 2022</span>&nbsp;·&nbsp;MagicQ</footer>
   <a class="entry-link" aria-label="post link to A&#43; 折腾网站" href="https://iblog.zone.id/posts/20221222/"></a>
