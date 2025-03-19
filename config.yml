@@ -1,14 +1,14 @@
 # 基础配置
 baseURL: "https://iblog.zone.id/"  # 你的博客的根URL
 languageCode: "zh"  # 网站的默认语言代码
-defaultContentLanguage: "zh"
+
 title: "子曰"  # 博客的标题
 theme: "PaperMod"  # 使用的主题名称
 hasCJKLanguage: true  # 启用CJK语言支持
 
 
 # 构建选项
-paginate: 10 # 每页显示的文章数量
+paginate: 10 
 summaryLength: 140  # 文章概要显示的字数
 minify:
   disableXML: true  # 用XML文件压缩
