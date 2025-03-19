@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://blog.rzlnb.top/sitemap.xml
+Sitemap: https://iblog.zone.id/sitemap.xml
