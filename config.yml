@@ -1,6 +1,6 @@
-baseURL: "https://blog.rzlnb.top/"  # 你的博客的根URL
+baseURL: "https://iblog.zone.id"  # 你的博客的根URL
 languageCode: "zh-cn"  # 网站的默认语言代码
-title: "Coolzr's Blog"  # 博客的标题
+title: "子曰"  # 博客的标题
 theme: "PaperMod"  # 使用的主题名称
 
 enableInlineShortcodes: true  # 启用内联短代码
