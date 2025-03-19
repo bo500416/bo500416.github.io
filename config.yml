@@ -1,6 +1,5 @@
-# 基础配置
-baseURL: "https://iblog.zone.id/"  # 你的博客的根URL
-languageCode: "zh-cn"  # 网站的默认语言代
+baseURL: "https://iblog.zone.id"  # 你的博客的根URL
+languageCode: "zh-cn"  # 网站的默认语言代码
 title: "子曰"  # 博客的标题
 theme: "PaperMod"  # 使用的主题名称
 
@@ -9,58 +8,61 @@ enableEmoji: true  # 启用Emoji表情支持
 enableRobotsTXT: true  # 生成 robots.txt 文件
 hasCJKLanguage: true  # 启用CJK语言支持
 
-# 构建选项
+
+
 buildDrafts: false  # 是否构建草稿文章
 buildFuture: false  # 是否构建将来发布时间的文章
 buildExpired: false  # 是否构建过期的文章
-paginate: 10 # 每页显示的文章数量
+
+paginate: 10  # 每页显示的文章数量
 summaryLength: 140  # 文章概要显示的字数
+
 minify:
   disableXML: true  # 用XML文件压缩
 
 
+defaultContentLanguage: "zh-cn"  # 默认内容语言代码
+languages:
+  zh-cn:
+    languageName: "简中"  # 语言显示名称
+    weight: 1  # 权重，决定语言的显示顺序
+    params:
+      homeInfoParams:
+        Title: "Hello Word \U0001F44B"
+        Content: "欲买桂花同载酒，终不似，少年游。"
 
 
-# 菜单配置
 menu:
   main:
-    - identifier: "tags"
-      name: "标签"
-      url: "/tags/"
-      weight: 10
-    - identifier: "archives"
-      name: "归档"
-      url: "/archives/"
+      - identifier: tags
+      name: 标签
+      url: /tags/
       weight: 20
-    - identifier: "search"
-      name: "搜索"
-      url: "/search/"
+      - identifier: archives
+      name: 归档
+      url: /archives/
       weight: 30
-    - identifier: "links"
-      name: "链接"
-      url: "/links/"
+      - identifier: search
+      name: 搜索
+      url: /search/
       weight: 40
+      - identifier: links
+      name: 链接
+      url: /links/
+      weight: 60   
 
-# 主题参数配置
+
 params:
   env: "production"  # 当前环境
   description: "学而时习之，不亦说乎。"  # 网站描述
-  defaultTheme: "auto"  # 默认主题模式 
+  author: "ziyue"  # 作者名称
+  defaultTheme: "auto"  # 默认主题模式
   ShowCodeCopyButtons: true  # 显示代码复制按钮
   ShowReadingTime: false  # 显示阅读时间
   ShowShareButtons: false  # 显示分享按钮
   ShowPostNavLinks: true  # 显示文章导航链接
   ShowBreadCrumbs: true  # 显示面包屑导航
 
-  homeInfoParams:
-    Title: "Hello World \U0001F44B"
-    Content: 欲买桂花同载酒，终不似，少年游。
-  assets: 
-    favicon: "/favicon.ico" #设置站点的 favicon 图标。
-    
-
-
-# 搜索功能配置
 outputs:
   home:
     - "HTML"
@@ -75,4 +77,5 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "permalink", "summary"]
+
