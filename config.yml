@@ -46,8 +46,7 @@ params:
   homeInfoParams:
     Title: "Hello World \U0001F44B"
     Content: 欲买桂花同载酒，终不似，少年游。
-  assets: 
-    favicon: "/favicon.ico" #设置站点的 favicon 图标。
+  
     
 
 
