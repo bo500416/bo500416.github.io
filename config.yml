@@ -1,6 +1,6 @@
-baseURL: "https://iblog.zone.id"  # 你的博客的根URL
+baseURL: "https://blog.rzlnb.top/"  # 你的博客的根URL
 languageCode: "zh-cn"  # 网站的默认语言代码
-title: "子曰"  # 博客的标题
+title: "Coolzr's Blog"  # 博客的标题
 theme: "PaperMod"  # 使用的主题名称
 
 enableInlineShortcodes: true  # 启用内联短代码
@@ -8,54 +8,46 @@ enableEmoji: true  # 启用Emoji表情支持
 enableRobotsTXT: true  # 生成 robots.txt 文件
 hasCJKLanguage: true  # 启用CJK语言支持
 
-
-
 buildDrafts: false  # 是否构建草稿文章
 buildFuture: false  # 是否构建将来发布时间的文章
 buildExpired: false  # 是否构建过期的文章
 
+paginate: 15  # 每页显示的文章数量
+summaryLength: 140  # 文章概要显示的字数
 
 minify:
   disableXML: true  # 用XML文件压缩
 
 
-
 params:
-  homeInfoParams:
-    Title: "Hello Word \U0001F44B"
-    Content: "欲买桂花同载酒，终不似，少年游。"
-
-    env: "production"  # 当前环境
-    description: "学而时习之，不亦说乎。"  # 网站描述
-    author: "ziyue"  # 作者名称
-    defaultTheme: "auto"  # 默认主题模式
-    ShowCodeCopyButtons: true  # 显示代码复制按钮
-    ShowReadingTime: false  # 显示阅读时间
-    ShowShareButtons: false  # 显示分享按钮
-    ShowPostNavLinks: true  # 显示文章导航链接
-    ShowBreadCrumbs: true  # 显示面包屑导航
-
+  env: "production"  # 当前环境
+  description: "个人博客，记录和分享"  # 网站描述
+  author: "coolzr"  # 作者名称
+  defaultTheme: "auto"  # 默认主题模式
+  ShowCodeCopyButtons: true  # 显示代码复制按钮
+  ShowReadingTime: false  # 显示阅读时间
+  ShowShareButtons: false  # 显示分享按钮
+  ShowPostNavLinks: true  # 显示文章导航链接
+  ShowBreadCrumbs: true  # 显示面包屑导航
 
 menu:
   main:
-      - identifier: "tags"
+    - identifier: "tags"
       name: "标签"
-      url: "/tags/"
-      weight: 20
-      - identifier: "archives"
+      url: "tags"
+      weight: 10
+    - identifier: "archives"
       name: "归档"
-      url: "/archives/"
+      url: "archives"
       weight: 30
-      - identifier: "search"
+    - identifier: "search"
       name: "搜索"
-      url: "/search/"
-      weight: 40
-      - identifier: "links"
+      url: "search"
+      weight: 50
+    - identifier: "links"
       name: "链接"
-      url: "/links/"
-      weight: 60   
-
-
+      url: "links"
+      weight: 60
 
 
 
@@ -74,4 +66,3 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary"]
-
