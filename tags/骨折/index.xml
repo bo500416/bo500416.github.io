@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>骨折 on 子曰</title>
-    <link>https://iblog.zone.id/tags/%E9%AA%A8%E6%8A%98/</link>
-    <description>Recent content in 骨折 on 子曰</description>
+    <title>骨折 on ExampleSite</title>
+    <link>https://examplesite.com/tags/%E9%AA%A8%E6%8A%98/</link>
+    <description>Recent content in 骨折 on ExampleSite</description>
+    <image>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Sep 2024 00:06:13 +0800</lastBuildDate><atom:link href="https://iblog.zone.id/tags/%E9%AA%A8%E6%8A%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Sep 2024 00:06:13 +0800</lastBuildDate><atom:link href="https://examplesite.com/tags/%E9%AA%A8%E6%8A%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>sdfasfd</title>
-      <link>https://iblog.zone.id/posts/20240914/</link>
+      <link>https://examplesite.com/posts/20240914/</link>
       <pubDate>Sat, 14 Sep 2024 00:06:13 +0800</pubDate>
       
-      <guid>https://iblog.zone.id/posts/20240914/</guid>
+      <guid>https://examplesite.com/posts/20240914/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>终于快康复了</title>
-      <link>https://iblog.zone.id/posts/20240912/</link>
+      <link>https://examplesite.com/posts/20240912/</link>
       <pubDate>Thu, 12 Sep 2024 00:06:13 +0800</pubDate>
       
-      <guid>https://iblog.zone.id/posts/20240912/</guid>
+      <guid>https://examplesite.com/posts/20240912/</guid>
       <description> </description>
     </item>
     
