@@ -110,7 +110,7 @@ menu:
       url: /search/
       weight: 30
     - identifier: links
-      name: 搜索
+      name: 链接
       url: /links/
       weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
