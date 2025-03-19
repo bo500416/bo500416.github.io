@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://iblog.zone.id/sitemap.xml
