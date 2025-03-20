@@ -1,4 +1,5 @@
 baseURL: "https://iblog.zone.id"
+languageCode: "zh-cn"  
 title: 子曰
 paginate: 5
 theme: PaperMod
@@ -79,13 +80,14 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"  # 用于搜索功能
+
+params:
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -93,8 +95,8 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+    
 menu:
   main:
     - identifier: tags
