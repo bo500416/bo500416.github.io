@@ -81,13 +81,12 @@ params:
     hiddenInSingle: true # hide on single page
 
 
-outputs:
-  home:
-    - "HTML"
-    - "RSS"
-    - "JSON"  # 用于搜索功能
+  outputs:
+    home:
+      - "HTML"
+      - "RSS"
+      - "JSON"  # 用于搜索功能
 
-params:
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
