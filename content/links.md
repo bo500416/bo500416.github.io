@@ -23,5 +23,8 @@ summary: links
 &nbsp;&nbsp;&nbsp;&nbsp;[莫比乌斯](https://onojyun.com/) 
 &nbsp;&nbsp;&nbsp;&nbsp;[编程指北](https://csguide.cn/) 
 &nbsp;&nbsp;&nbsp;&nbsp;[叶开](https://qq.md/) 
-
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| [王志勇Blog](http://www.auiou.com/)      | [土木坛子](https://tumutanzi.com/)       | [木木木木木](https://immmmm.com/)   |
+| [教学工具导航](https://edui.fun/)   | [杜老师说](https://dusays.com/)        | [kaix.in](https://kaix.in/)      |
 
