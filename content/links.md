@@ -4,27 +4,10 @@ layout: "links"
 url: "/links/"
 summary: links
 ---
-[王志勇Blog](http://www.auiou.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;[土木坛子](https://tumutanzi.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;[木木木木木](https://immmmm.com/)	
-&nbsp;&nbsp;&nbsp;&nbsp;[教学工具导航](https://edui.fun/)	
-&nbsp;&nbsp;&nbsp;&nbsp;[杜老师说](https://dusays.com/)	
-&nbsp;&nbsp;&nbsp;&nbsp;[去不图床](https://7bu.top/)
-&nbsp;&nbsp;&nbsp;&nbsp;[kaix.in](https://kaix.in/)
-&nbsp;&nbsp;&nbsp;&nbsp;[胡言胡语](https://husay.cc/)
-&nbsp;&nbsp;&nbsp;&nbsp;[三无青年](https://www.duanxiansen.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;[忆往事](https://zhou.ge/)
-&nbsp;&nbsp;&nbsp;&nbsp;[BETTYPLEX](http://forbetty.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;[渚碧](https://jubeny.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;[美女爬虫](http://h4ck.org.cn/)
-&nbsp;&nbsp;&nbsp;&nbsp;[无色墨水](https://wuse.ink/)
-&nbsp;&nbsp;&nbsp;&nbsp;[威言威语](https://www.weisay.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;[段先森](https://www.duanxiansen.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;[莫比乌斯](https://onojyun.com/) 
-&nbsp;&nbsp;&nbsp;&nbsp;[编程指北](https://csguide.cn/) 
-&nbsp;&nbsp;&nbsp;&nbsp;[叶开](https://qq.md/) 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| [王志勇Blog](http://www.auiou.com/)      | [土木坛子](https://tumutanzi.com/)       | [木木木木木](https://immmmm.com/)   |
-| [教学工具导航](https://edui.fun/)   | [杜老师说](https://dusays.com/)        | [kaix.in](https://kaix.in/)      |
 
+| :---        |    :----:   |          ---: |
+| [王志勇Blog](http://www.auiou.com/)      | [土木坛子](https://tumutanzi.com/)       | [木木木木木](https://immmmm.com/)   | [胡言胡语](https://husay.cc/)     |
+| [教学工具导航](https://edui.fun/)   | [杜老师说](https://dusays.com/)        | [kaix.in](https://kaix.in/)      | [三无青年](https://www.duanxiansen.com/)    |
+| [忆往事](https://zhou.ge/)   | [BETTYPLEX](http://forbetty.com/)       | [渚碧](https://jubeny.com/)      | [美女爬虫](http://h4ck.org.cn/)   |
+| [无色墨水](https://wuse.ink/)   | [威言威语](https://www.weisay.com/)       | [段先森](https://www.duanxiansen.com/)      | [莫比乌斯](https://onojyun.com/)   |
+| [编程指北](https://csguide.cn/)    | [叶开](https://qq.md/)        |      |     |
