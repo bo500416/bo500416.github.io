@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://ziyue.zone.id/sitemap.xml
+Sitemap: https://aabb.qzz.io/sitemap.xml
