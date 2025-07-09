@@ -34,6 +34,7 @@
 <meta name=twitter:description content=" ">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://aabb.qzz.io/posts/"},{"@type":"ListItem","position":3,"name":"怪不得域名一直掉","item":"https://aabb.qzz.io/posts/yumingdiao/"}]}</script>
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"怪不得域名一直掉","name":"怪不得域名一直掉","description":" ","keywords":["域名","hugo"],"articleBody":"昨天刚把hugo部署到github上，绑定了域名，弄了自动部署。\n今天更新文章就发现一个问题。\n只要actions一触发，网站就打不开了。\n一直以为是不是main.yml写的不对，后来才发现，触发一次，pages里面的域名就不见了，空了。\n百度了一下，才发现，是theme文件的static里面没有cname文件。\n后来加上了cname文件才正常。\n","wordCount":"6","inLanguage":"zh","datePublished":"2021-11-19T22:34:38+08:00","dateModified":"2021-11-19T22:34:38+08:00","author":{"@type":"Person","name":"MagicQ"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://aabb.qzz.io/posts/yumingdiao/"},"publisher":{"@type":"Organization","name":"子曰","logo":{"@type":"ImageObject","url":"https://aabb.qzz.io/favicon.ico"}}}</script>
+<script>(function(){''&&prompt('请输入文章密码')!==''&&(alert('密码错误！'),history.back())})()</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
