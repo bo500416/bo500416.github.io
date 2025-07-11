@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>图片 on 子曰</title>
-    <link>https://aa.zhoulove.cn/tags/%E5%9B%BE%E7%89%87/</link>
+    <link>https://b.zhoulove.cn/tags/%E5%9B%BE%E7%89%87/</link>
     <description>Recent content in 图片 on 子曰</description>
     <image>
-      <url>https://aa.zhoulove.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://aa.zhoulove.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://b.zhoulove.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://b.zhoulove.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 20 Nov 2021 22:23:42 +0800</lastBuildDate><atom:link href="https://aa.zhoulove.cn/tags/%E5%9B%BE%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Nov 2021 22:23:42 +0800</lastBuildDate><atom:link href="https://b.zhoulove.cn/tags/%E5%9B%BE%E7%89%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>测试图片</title>
-      <link>https://aa.zhoulove.cn/posts/testimage/</link>
+      <link>https://b.zhoulove.cn/posts/testimage/</link>
       <pubDate>Sat, 20 Nov 2021 22:23:42 +0800</pubDate>
       
-      <guid>https://aa.zhoulove.cn/posts/testimage/</guid>
+      <guid>https://b.zhoulove.cn/posts/testimage/</guid>
       <description> </description>
     </item>
     
