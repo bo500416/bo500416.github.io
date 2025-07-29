@@ -10,7 +10,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 08 Jul 2025 00:06:13 +0800</lastBuildDate><atom:link href="https://yy.sld.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jul 2025 00:06:13 +0800</lastBuildDate><atom:link href="https://yy.sld.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>快速下载百度云文件</title>
+      <link>https://yy.sld.tw/posts/20250728/</link>
+      <pubDate>Mon, 28 Jul 2025 00:06:13 +0800</pubDate>
+      
+      <guid>https://yy.sld.tw/posts/20250728/</guid>
+      <description>首先通过这个网站https://yyzz.426720.xyz/把百度云的分享链接转为直链。
+然后选择自己要下载的文件选择下载。
+他支持Mortrix下载，如果没有安装这个，也可以直接下载，但是需要把浏览器的UA改成pan.baidu.com。
+怎么改edge浏览器的UA？
+在下载页面按F12,打开开发者工具，点下面的**“网络条件”**，取消用户浏览器默认，在自定义里面输入pan.baidu.com，这样就可以下载了，会默认启动**Internet Download Manager**。</description>
+    </item>
+    
     <item>
       <title>20250708</title>
       <link>https://yy.sld.tw/posts/20250708/</link>
