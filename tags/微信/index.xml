@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 12 Dec 2021 21:16:13 +0800</lastBuildDate><atom:link href="https://yy.sld.tw/tags/%E5%BE%AE%E4%BF%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jul 2025 00:06:13 +0800</lastBuildDate><atom:link href="https://yy.sld.tw/tags/%E5%BE%AE%E4%BF%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>微信历史版本下载</title>
+      <link>https://yy.sld.tw/posts/20250730/</link>
+      <pubDate>Wed, 30 Jul 2025 00:06:13 +0800</pubDate>
+      
+      <guid>https://yy.sld.tw/posts/20250730/</guid>
+      <description>微信windows PC 各版本下载地址: https://github.com/tom-snow/wechat-windows-versions/releases 微信windowsPCx86各版本下载地址： https://github.com/tom-snow/wechat-windows-versions-x86/releases 微信android各版本下载地址: https://github.com/DJB-Developer/wechat- androidQ -history-versions/releases 微信MAC各版本下载地址： https://github.com/zsbai/wechat-versions/releases 打开网页后，找到对应的版本，点开Assets，下载对应的版本即可.</description>
+    </item>
+    
     <item>
       <title>微信突然退出</title>
       <link>https://yy.sld.tw/posts/2021-12-12/</link>
