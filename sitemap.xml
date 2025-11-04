@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gs.ye.gs/posts/20250731/</loc>
-    <lastmod>2025-11-04T00:06:13+08:00</lastmod>
-  </url><url>
     <loc>https://gs.ye.gs/tags/hugo/</loc>
     <lastmod>2025-11-04T00:06:13+08:00</lastmod>
   </url><url>
@@ -23,6 +20,12 @@
     <loc>https://gs.ye.gs/tags/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</loc>
     <lastmod>2025-11-04T00:06:13+08:00</lastmod>
   </url><url>
+    <loc>https://gs.ye.gs/posts/20250731/</loc>
+    <lastmod>2025-07-31T00:06:13+08:00</lastmod>
+  </url><url>
+    <loc>https://gs.ye.gs/tags/%E6%A2%A6/</loc>
+    <lastmod>2025-07-31T00:06:13+08:00</lastmod>
+  </url><url>
     <loc>https://gs.ye.gs/tags/%E5%BE%AE%E4%BF%A1/</loc>
     <lastmod>2025-07-30T00:06:13+08:00</lastmod>
   </url><url>
@@ -36,9 +39,6 @@
     <lastmod>2025-07-28T00:06:13+08:00</lastmod>
   </url><url>
     <loc>https://gs.ye.gs/posts/20250708/</loc>
-    <lastmod>2025-07-08T00:06:13+08:00</lastmod>
-  </url><url>
-    <loc>https://gs.ye.gs/tags/%E6%A2%A6/</loc>
     <lastmod>2025-07-08T00:06:13+08:00</lastmod>
   </url><url>
     <loc>https://gs.ye.gs/categories/</loc>
