@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>孔乙己 on 子曰</title>
-    <link>https://aabb.qzz.io/tags/%E5%AD%94%E4%B9%99%E5%B7%B1/</link>
+    <link>/tags/%E5%AD%94%E4%B9%99%E5%B7%B1/</link>
     <description>Recent content in 孔乙己 on 子曰</description>
     <image>
-      <url>https://aabb.qzz.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://aabb.qzz.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 22 Dec 2021 21:37:45 +0800</lastBuildDate><atom:link href="https://aabb.qzz.io/tags/%E5%AD%94%E4%B9%99%E5%B7%B1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Dec 2021 21:37:45 +0800</lastBuildDate><atom:link href="/tags/%E5%AD%94%E4%B9%99%E5%B7%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>想起孔乙己</title>
-      <link>https://aabb.qzz.io/posts/2021-12-22/</link>
+      <link>/posts/2021-12-22/</link>
       <pubDate>Wed, 22 Dec 2021 21:37:45 +0800</pubDate>
       
-      <guid>https://aabb.qzz.io/posts/2021-12-22/</guid>
+      <guid>/posts/2021-12-22/</guid>
       <description> </description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>作品 on 子曰</title>
-    <link>https://aabb.qzz.io/tags/%E4%BD%9C%E5%93%81/</link>
+    <link>/tags/%E4%BD%9C%E5%93%81/</link>
     <description>Recent content in 作品 on 子曰</description>
     <image>
-      <url>https://aabb.qzz.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://aabb.qzz.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 16 Dec 2021 22:16:40 +0800</lastBuildDate><atom:link href="https://aabb.qzz.io/tags/%E4%BD%9C%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Dec 2021 22:16:40 +0800</lastBuildDate><atom:link href="/tags/%E4%BD%9C%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>小优的作品</title>
-      <link>https://aabb.qzz.io/posts/2021-12-16/</link>
+      <link>/posts/2021-12-16/</link>
       <pubDate>Thu, 16 Dec 2021 22:16:40 +0800</pubDate>
       
-      <guid>https://aabb.qzz.io/posts/2021-12-16/</guid>
+      <guid>/posts/2021-12-16/</guid>
       <description> </description>
     </item>
     

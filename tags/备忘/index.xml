@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>备忘 on 子曰</title>
-    <link>https://aabb.qzz.io/tags/%E5%A4%87%E5%BF%98/</link>
+    <link>/tags/%E5%A4%87%E5%BF%98/</link>
     <description>Recent content in 备忘 on 子曰</description>
     <image>
-      <url>https://aabb.qzz.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://aabb.qzz.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 28 Jul 2025 00:06:13 +0800</lastBuildDate><atom:link href="https://aabb.qzz.io/tags/%E5%A4%87%E5%BF%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jul 2025 00:06:13 +0800</lastBuildDate><atom:link href="/tags/%E5%A4%87%E5%BF%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>快速下载百度云文件</title>
-      <link>https://aabb.qzz.io/posts/20250728/</link>
+      <link>/posts/20250728/</link>
       <pubDate>Mon, 28 Jul 2025 00:06:13 +0800</pubDate>
       
-      <guid>https://aabb.qzz.io/posts/20250728/</guid>
+      <guid>/posts/20250728/</guid>
       <description>首先通过这个网站https://yyzz.426720.xyz/把百度云的分享链接转为直链。
 然后选择自己要下载的文件选择下载。
 他支持Mortrix下载，如果没有安装这个，也可以直接下载，但是需要把浏览器的UA改成pan.baidu.com。
