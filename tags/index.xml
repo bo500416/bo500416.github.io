@@ -10,13 +10,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 31 Jul 2025 00:06:13 +0800</lastBuildDate><atom:link href="https://gs.ye.gs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Nov 2025 00:06:13 +0800</lastBuildDate><atom:link href="https://gs.ye.gs/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>梦</title>
-      <link>https://gs.ye.gs/tags/%E6%A2%A6/</link>
-      <pubDate>Thu, 31 Jul 2025 00:06:13 +0800</pubDate>
+      <title>hugo</title>
+      <link>https://gs.ye.gs/tags/hugo/</link>
+      <pubDate>Tue, 04 Nov 2025 00:06:13 +0800</pubDate>
       
-      <guid>https://gs.ye.gs/tags/%E6%A2%A6/</guid>
+      <guid>https://gs.ye.gs/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>虚拟主机</title>
+      <link>https://gs.ye.gs/tags/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</link>
+      <pubDate>Tue, 04 Nov 2025 00:06:13 +0800</pubDate>
+      
+      <guid>https://gs.ye.gs/tags/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</guid>
       <description></description>
     </item>
     
@@ -35,6 +44,15 @@
       <pubDate>Mon, 28 Jul 2025 00:06:13 +0800</pubDate>
       
       <guid>https://gs.ye.gs/tags/%E5%A4%87%E5%BF%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>梦</title>
+      <link>https://gs.ye.gs/tags/%E6%A2%A6/</link>
+      <pubDate>Tue, 08 Jul 2025 00:06:13 +0800</pubDate>
+      
+      <guid>https://gs.ye.gs/tags/%E6%A2%A6/</guid>
       <description></description>
     </item>
     
@@ -350,15 +368,6 @@
       <pubDate>Mon, 29 Nov 2021 22:28:44 +0800</pubDate>
       
       <guid>https://gs.ye.gs/tags/%E9%81%9B%E7%8B%97/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://gs.ye.gs/tags/hugo/</link>
-      <pubDate>Fri, 26 Nov 2021 20:57:45 +0800</pubDate>
-      
-      <guid>https://gs.ye.gs/tags/hugo/</guid>
       <description></description>
     </item>
     
