@@ -1,4 +1,4 @@
-name: Deploy Hugo # 任君喜欢
+name: Deploy Hugo
 
 on:
   push:
@@ -19,12 +19,21 @@ jobs:
       - name: Build 
         run: hugo
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.personal_token }} # personal_token 这里新建一个 https://github.com/settings/tokens
-          PUBLISH_BRANCH: gh-pages  # 推送到当前 gh-pages 分支
-          PUBLISH_DIR: ./public  # hugo 生成到 public 作为跟目录
+          personal_token: ${{ secrets.personal_token }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
           commit_message: ${{ github.event.head_commit.message }}
-          cname: yy.sld.tw
-          
+      
+      - name: Deploy to FTP (虚拟空间)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4  # FTP上传的Action
+        with:
+          server: 66.154.119.208        # FTP服务器地址（如：ftp.example.com）
+          username: bnbvnkg     # FTP用户名
+          password: hengbo2960798     # FTP密码
+          local-dir: ./public/                      # 本地要上传的目录（Hugo构建结果）
+          server-dir: /domains/gs.ye.gs/public_html/                          # 服务器目标目录（根据虚拟空间需求修改）
+          # 可选配置：删除服务器上不存在的文件（保持与本地一致）
+          delete-remote: true
