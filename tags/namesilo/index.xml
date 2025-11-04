@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>namesilo on 子曰</title>
-    <link>/tags/namesilo/</link>
+    <link>https://gs.ye.gs/tags/namesilo/</link>
     <description>Recent content in namesilo on 子曰</description>
     <image>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://gs.ye.gs/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://gs.ye.gs/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 22 Sep 2021 21:06:13 +0800</lastBuildDate><atom:link href="/tags/namesilo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 21:06:13 +0800</lastBuildDate><atom:link href="https://gs.ye.gs/tags/namesilo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>学习英语很重要</title>
-      <link>/posts/2021-09-22/</link>
+      <link>https://gs.ye.gs/posts/2021-09-22/</link>
       <pubDate>Wed, 22 Sep 2021 21:06:13 +0800</pubDate>
       
-      <guid>/posts/2021-09-22/</guid>
+      <guid>https://gs.ye.gs/posts/2021-09-22/</guid>
       <description> </description>
     </item>
     

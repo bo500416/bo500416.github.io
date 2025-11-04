@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>经验 on 子曰</title>
-    <link>/categories/%E7%BB%8F%E9%AA%8C/</link>
+    <link>https://gs.ye.gs/categories/%E7%BB%8F%E9%AA%8C/</link>
     <description>Recent content in 经验 on 子曰</description>
     <image>
-      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://gs.ye.gs/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://gs.ye.gs/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 09 Jun 2023 20:33:48 +0800</lastBuildDate><atom:link href="/categories/%E7%BB%8F%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 20:33:48 +0800</lastBuildDate><atom:link href="https://gs.ye.gs/categories/%E7%BB%8F%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>wordpress网站优化记录</title>
-      <link>/posts/20230610/</link>
+      <link>https://gs.ye.gs/posts/20230610/</link>
       <pubDate>Fri, 09 Jun 2023 20:33:48 +0800</pubDate>
       
-      <guid>/posts/20230610/</guid>
+      <guid>https://gs.ye.gs/posts/20230610/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>github不能自动部署了</title>
-      <link>/posts/20230421/</link>
+      <link>https://gs.ye.gs/posts/20230421/</link>
       <pubDate>Thu, 20 Apr 2023 20:33:48 +0800</pubDate>
       
-      <guid>/posts/20230421/</guid>
+      <guid>https://gs.ye.gs/posts/20230421/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>终于换主题成功</title>
-      <link>/posts/chenggong/</link>
+      <link>https://gs.ye.gs/posts/chenggong/</link>
       <pubDate>Thu, 25 Nov 2021 00:01:21 +0800</pubDate>
       
-      <guid>/posts/chenggong/</guid>
+      <guid>https://gs.ye.gs/posts/chenggong/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>测试图片</title>
-      <link>/posts/testimage/</link>
+      <link>https://gs.ye.gs/posts/testimage/</link>
       <pubDate>Sat, 20 Nov 2021 22:23:42 +0800</pubDate>
       
-      <guid>/posts/testimage/</guid>
+      <guid>https://gs.ye.gs/posts/testimage/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>这样打开github</title>
-      <link>/posts/opengithub/</link>
+      <link>https://gs.ye.gs/posts/opengithub/</link>
       <pubDate>Sat, 20 Nov 2021 20:47:57 +0800</pubDate>
       
-      <guid>/posts/opengithub/</guid>
+      <guid>https://gs.ye.gs/posts/opengithub/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>怪不得域名一直掉</title>
-      <link>/posts/yumingdiao/</link>
+      <link>https://gs.ye.gs/posts/yumingdiao/</link>
       <pubDate>Fri, 19 Nov 2021 22:34:38 +0800</pubDate>
       
-      <guid>/posts/yumingdiao/</guid>
+      <guid>https://gs.ye.gs/posts/yumingdiao/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>自动部署后发的第一篇文章</title>
-      <link>/posts/zidongbushu/</link>
+      <link>https://gs.ye.gs/posts/zidongbushu/</link>
       <pubDate>Thu, 18 Nov 2021 20:33:48 +0800</pubDate>
       
-      <guid>/posts/zidongbushu/</guid>
+      <guid>https://gs.ye.gs/posts/zidongbushu/</guid>
       <description> </description>
     </item>
     
