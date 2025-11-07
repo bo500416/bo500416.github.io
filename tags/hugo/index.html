@@ -73,6 +73,47 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>20251107
+</h2>
+</header>
+<section class=entry-content>
+<p>用豆包做了个自动生成md文件的bat。
+这样以后要更新网站，直接双击bat文件就好，自动就生成合适的md文件，我只需修改里面的标题、标签就好。
+bat的代码看不懂，但是自己要的功能能实现就好。
+这就是现在ai的好处。
+你不需要懂，只需要提出你的需求，它就会自动生成代码满足你。
+下面是bat的代码，记录一下。
+@echo off
+:: 获取当前日期时间（格式：YYYYMMDD）
+for /f "tokens=2 delims==" %%a in ('wmic os get localdatetime /value') do set "datetime=%%a"
+:: 提取并格式化日期时间
+set "currentdate=%datetime:~0,8%"
+set "formatted_date=%currentdate:~0,4%-%currentdate:~4,2%-%currentdate:~6,2%"
+set "time_part=%datetime:~8,6%"
+set "formatted_time=%time_part:~0,2%:%time_part:~2,2%:%time_part:~4,2%"
+:: 定义基础文件名
+set "basefilename=%currentdate%"
+set "filename=%basefilename%.md"
+:: 检查文件是否存在，存在则添加序号（01、02递增）
+set "count=1"
+:checkexist
+if exist "%filename%" (
+:: 序号不足两位时补0（确保01、02格式）
+if %count% lss 10 (
+set "filename=%basefilename%0%count%.md"
+) else (
+set "filename=%basefilename%%count%.md"
+)
+set /a count+=1
+goto checkexist
+)
+:: 提取文件名（去掉....</p>
+</section>
+<footer class=entry-footer><span title="2025-11-07 09:03:35 +0800 +0800">November 7, 2025</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to 20251107" href=https://gs.ye.gs/posts/20251107/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>hugo部署到虚拟主机
 </h2>
 </header>
