@@ -10,7 +10,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 06 Nov 2025 00:06:13 +0800</lastBuildDate><atom:link href="https://gs.ye.gs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Nov 2025 09:03:35 +0800</lastBuildDate><atom:link href="https://gs.ye.gs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20251107</title>
+      <link>https://gs.ye.gs/posts/20251107/</link>
+      <pubDate>Fri, 07 Nov 2025 09:03:35 +0800</pubDate>
+      
+      <guid>https://gs.ye.gs/posts/20251107/</guid>
+      <description>用豆包做了个自动生成md文件的bat。
+这样以后要更新网站，直接双击bat文件就好，自动就生成合适的md文件，我只需修改里面的标题、标签就好。
+bat的代码看不懂，但是自己要的功能能实现就好。
+这就是现在ai的好处。
+你不需要懂，只需要提出你的需求，它就会自动生成代码满足你。
+下面是bat的代码，记录一下。
+@echo off:: 获取当前日期时间（格式：YYYYMMDD）for /f &amp;quot;tokens=2 delims==&amp;quot; %%a in (&#39;wmic os get localdatetime /value&#39;) do set &amp;quot;datetime=%%a&amp;quot;:: 提取并格式化日期时间set &amp;quot;currentdate=%datetime:~0,8%&amp;quot;set &amp;quot;formatted_date=%currentdate:~0,4%-%currentdate:~4,2%-%currentdate:~6,2%&amp;quot;set &amp;quot;time_part=%datetime:~8,6%&amp;quot;set &amp;quot;formatted_time=%time_part:~0,2%:%time_part:~2,2%:%time_part:~4,2%&amp;quot;:: 定义基础文件名set &amp;quot;basefilename=%currentdate%&amp;quot;set &amp;quot;filename=%basefilename%.md&amp;quot;:: 检查文件是否存在，存在则添加序号（01、02递增）set &amp;quot;count=1&amp;quot;:checkexistif exist &amp;quot;%filename%&amp;quot; (:: 序号不足两位时补0（确保01、02格式）if %count% lss 10 (set &amp;quot;filename=%basefilename%0%count%.md&amp;quot;) else (set &amp;quot;filename=%basefilename%%count%.md&amp;quot;)set /a count+=1goto checkexist):: 提取文件名（去掉.</description>
+    </item>
+    
     <item>
       <title>20251106</title>
       <link>https://gs.ye.gs/posts/20251106/</link>
