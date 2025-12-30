@@ -84,6 +84,23 @@
 </article>
 <article class=post-entry>
 <header class=entry-header>
+<h2>20251230
+</h2>
+</header>
+<section class=entry-content>
+<p>是呀，得平心静气的说话。
+辅导作业时不能觉得自己很牛，看不起孩子。
+这样孩子就会有一种自卑感。
+得多夸孩子，让她有自信，她才能喜欢。
+谁也不会喜欢去干一直受打击的事。
+就像我玩的王者，如果一直让我输，我肯定不玩这个游戏了。
+所以，好好说话吧。</p>
+</section>
+<footer class=entry-footer><span title="2025-12-30 14:56:21 +0800 +0800">December 30, 2025</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to 20251230" href=https://gs.ye.gs/posts/20251230/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>20251121
 </h2>
 </header>
@@ -171,44 +188,6 @@ goto checkexist
 </section>
 <footer class=entry-footer><span title="2025-11-06 00:06:13 +0800 +0800">November 6, 2025</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to 20251106" href=https://gs.ye.gs/posts/20251106/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>hugo部署到虚拟主机
-</h2>
-</header>
-<section class=entry-content>
-<p>之前的hugo部署在github上，但是GitHub一直也不稳定，有时能上有时上不了。
-这两天找到一个免费虚拟主机，也没有什么网站可以搭建，就想着把hugo同步到虚拟主机里。
-然后今天就实现了。
-就是利用gith的workflows，把生成的静态页面推送到虚拟主机。
-name: Deploy Hugo
-on:
-push:
-branches:
-- master # master 更新触发
-jobs:
-build-deploy:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v2
-# 添加 Node.js 版本设置步骤
-- name: Setup Node.js
-uses: actions/setup-node@v4 # 官方 Node.js 环境配置 Action
-with:
-node-version: '18.x' # 指定需要的 Node.js 版本（例如 16.x、18.x、20.x 等）
-- name: Setup Hugo
-uses: peaceiris/actions-hugo@v2
-with:
-hugo-version: '0.88.0'
-- name: Build run: hugo
-- name: Deploy to GitHub Pages
-uses: peaceiris/actions-gh-pages@v3
-with:
-personal_token: ${{ secrets....</p>
-</section>
-<footer class=entry-footer><span title="2025-11-04 00:06:13 +0800 +0800">November 4, 2025</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to hugo部署到虚拟主机" href=https://gs.ye.gs/posts/20251104/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -74,128 +74,26 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
-<h2>hugo部署到虚拟主机
+<h2>素食者
 </h2>
 </header>
 <section class=entry-content>
-<p>之前的hugo部署在github上，但是GitHub一直也不稳定，有时能上有时上不了。
-这两天找到一个免费虚拟主机，也没有什么网站可以搭建，就想着把hugo同步到虚拟主机里。
-然后今天就实现了。
-就是利用gith的workflows，把生成的静态页面推送到虚拟主机。
-name: Deploy Hugo
-on:
-push:
-branches:
-- master # master 更新触发
-jobs:
-build-deploy:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v2
-# 添加 Node.js 版本设置步骤
-- name: Setup Node.js
-uses: actions/setup-node@v4 # 官方 Node.js 环境配置 Action
-with:
-node-version: '18.x' # 指定需要的 Node.js 版本（例如 16.x、18.x、20.x 等）
-- name: Setup Hugo
-uses: peaceiris/actions-hugo@v2
-with:
-hugo-version: '0.88.0'
-- name: Build run: hugo
-- name: Deploy to GitHub Pages
-uses: peaceiris/actions-gh-pages@v3
-with:
-personal_token: ${{ secrets....</p>
+<p>春节假期的某一天，当我坐在餐桌上的时候，突然想做一个素食者，于是我的筷子不再去夹任何一块肉。
+但我没有立刻成为素食者，我不想将自己的决定告诉父母，以防引起不必要的争执，所以我吃了肉馅的水饺和肉馅饼。
+我是无神论者，也不是动物保护主义者，对素食的唯一印象，是一个攀岩纪录片的主角——已经忘记了他的名字，虽然随手一查就能知道——他是一个素食主义者。
+如果一个徒手攀岩的人可以是素食者，那我应该也能做到。事实上我只是想换一种生活方式。
+我不想陷入一种极端，所以我不做严格的素食者，而是可以毫无顾忌地吃蛋饮奶。我愿意在自己的生活中做出一点微小的改变——比如尽可能少地使用塑料袋，点外卖不再要一次性餐具——但我并不觉得这对拯救人类有多大意义。人类早已毫无顾忌地走在自我毁灭的路上。
+所以，我做一个素食者对动物的命运也没有实质性的影响，如果全人类都是素食者，那么那些作为人类食物的动物连出生的机会都没有。
+不知不觉已经做了一个多月的素食者，并没有感觉到异常。爬坡时力气不如从前，但这个问题的变量太多。工作日在公司的餐厅吃，有很多素菜可供选择，周末也不是没有避免肉食的方法，虽然多了一点不便。
+在这一个多月的时间里，不敢说自己滴肉不沾，有些素菜里会混着些许肉末，我可以将此称为无心之失。但也有拒绝不了诱惑的时候，就在昨晚，与同事去吃烧烤，吃掉了两串羊肉、一只虾和一块鸭血。
+我是要做蛋奶素食者，而不是半素食者，这一点点的底线还是要守住。</p>
 </section>
-<footer class=entry-footer><span title="2025-11-04 00:06:13 +0800 +0800">November 4, 2025</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to hugo部署到虚拟主机" href=https://gs.ye.gs/posts/20251104/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>20250731
-</h2>
-</header>
-<section class=entry-content>
-<p>梦一
-我们很愉快的往家走。
-大路上，她说你牵着我手，我羞涩了。
-我说，天还没黑，路上这么多人，让熟人看见不好意思。
-她乖巧地表示理解。
-梦二
-她从来不考虑你的感受。
-不知道她是否知道你在生气。
-反正不管你生不生气，她就该干什么干什么。
-这种人，梦里都能把你气醒。</p>
-</section>
-<footer class=entry-footer><span title="2025-07-31 00:06:13 +0800 +0800">July 31, 2025</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to 20250731" href=https://gs.ye.gs/posts/20250731/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>微信历史版本下载
-</h2>
-</header>
-<section class=entry-content>
-<p>微信windows PC 各版本下载地址:
-https://github.com/tom-snow/wechat-windows-versions/releases
-微信windowsPCx86各版本下载地址：
-https://github.com/tom-snow/wechat-windows-versions-x86/releases
-微信android各版本下载地址:
-https://github.com/DJB-Developer/wechat- androidQ -history-versions/releases
-微信MAC各版本下载地址：
-https://github.com/zsbai/wechat-versions/releases
-打开网页后，找到对应的版本，点开Assets，下载对应的版本即可.哈哈三是skskfffaaa</p>
-</section>
-<footer class=entry-footer><span title="2025-07-30 00:06:13 +0800 +0800">July 30, 2025</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to 微信历史版本下载" href=https://gs.ye.gs/posts/20250730/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>快速下载百度云文件
-</h2>
-</header>
-<section class=entry-content>
-<p>首先通过这个网站https://yyzz.426720.xyz/把百度云的分享链接转为直链。
-然后选择自己要下载的文件选择下载。
-他支持Mortrix下载，如果没有安装这个，也可以直接下载，但是需要把浏览器的UA改成pan.baidu.com。
-怎么改edge浏览器的UA？
-在下载页面按F12,打开开发者工具，点下面的**“网络条件”**，取消用户浏览器默认，在自定义里面输入pan.baidu.com，这样就可以下载了，会默认启动**Internet Download Manager**。</p>
-</section>
-<footer class=entry-footer><span title="2025-07-28 00:06:13 +0800 +0800">July 28, 2025</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to 快速下载百度云文件" href=https://gs.ye.gs/posts/20250728/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>20250708
-</h2>
-</header>
-<section class=entry-content>
-<p>记不清我们俩从哪逃离了人群，走到了无人问津的楼梯口。
-我们像热恋中的情侣，相互挽着胳膊。
-我轻声说了声，让我亲你一下。
-可能是我声音太小，我们慌着下楼梯，她没有听见。
-只管挽着我的胳膊继续下楼。
-最终下到的地方好像是一个商场，卖各种衣服、饰品的那种地方。
-里面人好多、好乱、好杂。
-像我这种路痴是很容易在这里面迷路的。
-果不其然，不记得我是出去干了什么，回来就看不见她了。
-凭着感觉找去，找到了。
-她坐在一张桌子上，仰躺着，我可以看到她的内裤边。
-我说走吧，她说我中午不回去了。
-我说，那我中午也不回去了，那我们去哪？
-她低声说，找个青年旅馆吧。
-我大喜，终于有机会了。
-梦醒。
-早上到单位，她又邀我一块王者，这么有默契的吗？
-不如找个机会来一炮。</p>
-</section>
-<footer class=entry-footer><span title="2025-07-08 00:06:13 +0800 +0800">July 8, 2025</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;Me</footer>
-<a class=entry-link aria-label="post link to 20250708" href=https://gs.ye.gs/posts/20250708/></a>
+<footer class=entry-footer>1 分钟&nbsp;·&nbsp;MagicQ</footer>
+<a class=entry-link aria-label="post link to 素食者" href=https://gs.ye.gs/posts/20230222/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
-<a class=prev href=https://gs.ye.gs/posts/>« 上一页</a>
-<a class=next href=https://gs.ye.gs/posts/page/3/>下一页 »</a>
+<a class=prev href=https://gs.ye.gs/posts/page/12/>« 上一页</a>
 </nav>
 </footer>
 </main>
