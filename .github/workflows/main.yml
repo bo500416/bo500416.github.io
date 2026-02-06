@@ -34,10 +34,10 @@ jobs:
       - name: Deploy to FTP (虚拟空间)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4  # FTP上传的Action
         with:
-          server: ana.cname.blogtrain.net        # FTP服务器地址（如：ftp.example.com）
-          username: bnbvnkg     # FTP用户名
-          password: SF<1d-bG49{#/}wI     # FTP密码
+          server: us2.panel.net.cn        # FTP服务器地址（如：ftp.example.com）
+          username: s2564719     # FTP用户名
+          password: hengbo2960798     # FTP密码
           local-dir: ./public/                      # 本地要上传的目录（Hugo构建结果）
-          server-dir: /domains/gs.ye.gs/public_html/                          # 服务器目标目录（根据虚拟空间需求修改）
+          server-dir: /wwwroot/                        # 服务器目标目录（根据虚拟空间需求修改）
           # 可选配置：删除服务器上不存在的文件（保持与本地一致）
           delete-remote: true
