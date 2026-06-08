@@ -1,6 +1,6 @@
 ---
 title: "跨标签页倒计时提醒" # in any language you want
-layout: "search" # is necessary
+layout: "count" # is necessary
 # url: "/count"
 # description: "Description for Search"
 summary: "count"
