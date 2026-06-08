@@ -1,9 +1,9 @@
 ---
 title: "跨标签页倒计时提醒" # in any language you want
 layout: "search" # is necessary
-# url: "/archive"
+# url: "/count"
 # description: "Description for Search"
-summary: "search"
+summary: "count"
 ---
 
 <!DOCTYPE html>
